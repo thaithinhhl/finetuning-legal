@@ -1,0 +1,11 @@
+# CUDA-enabled PyTorch should be installed for your CUDA version first:
+# https://pytorch.org/get-started/locally/
+torch>=2.4,<2.7
+transformers>=4.46,<4.50
+datasets>=3.1,<4
+accelerate>=1.0,<2
+peft>=0.13,<0.16
+bitsandbytes>=0.44,<0.46
+PyYAML>=6.0,<7
+sentencepiece>=0.2,<1
+safetensors>=0.4,<1
