@@ -13,7 +13,7 @@ def load_config(path: str | Path) -> dict[str, Any]:
     required = {
         "model": ["name_or_path"],
         "data": ["train_file", "validation_file", "test_file"],
-        "qlora": ["r", "alpha", "target_modules"],
+        "lora": ["r", "alpha", "target_modules"],
         "training": ["output_dir", "num_train_epochs"],
     }
     for section, keys in required.items():

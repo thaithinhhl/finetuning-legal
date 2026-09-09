@@ -10,12 +10,12 @@ from transformers import Trainer, TrainingArguments, set_seed
 
 from src.legal_ft.config import load_config
 from src.legal_ft.data import CompletionCollator, load_splits, tokenize_splits
-from src.legal_ft.model import load_qlora_model, load_tokenizer
+from src.legal_ft.model import load_lora_model, load_tokenizer
 
 
 def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description="Fine-tune Qwen with 4-bit QLoRA")
-    parser.add_argument("--config", default="configs/qwen2_5_7b_qlora.yaml")
+    parser = argparse.ArgumentParser(description="Fine-tune Qwen with BF16 LoRA")
+    parser.add_argument("--config", default="configs/qwen2_5_7b_bf16_lora.yaml")
     return parser.parse_args()
 
 
@@ -28,7 +28,7 @@ def main() -> None:
     tokenizer = load_tokenizer(config["model"])
     raw_data = load_splits(config["data"])
     data = tokenize_splits(raw_data, tokenizer, config["data"])
-    model, dtype = load_qlora_model(config)
+    model, dtype = load_lora_model(config)
     output_dir = Path(train_cfg["output_dir"])
     output_dir.mkdir(parents=True, exist_ok=True)
 
@@ -57,10 +57,14 @@ def main() -> None:
         metric_for_best_model="eval_loss",
         greater_is_better=False,
         gradient_checkpointing=bool(train_cfg.get("gradient_checkpointing", True)),
+        gradient_checkpointing_kwargs={"use_reentrant": False},
         max_grad_norm=float(train_cfg.get("max_grad_norm", 0.3)),
-        optim="paged_adamw_8bit",
+        optim=train_cfg.get("optim", "adamw_torch_fused"),
         bf16=bf16,
         fp16=not bf16,
+        tf32=bool(train_cfg.get("tf32", True)),
+        group_by_length=bool(train_cfg.get("group_by_length", True)),
+        dataloader_num_workers=int(train_cfg.get("dataloader_num_workers", 4)),
         report_to=train_cfg.get("report_to", "none"),
         seed=int(train_cfg.get("seed", 42)),
         data_seed=int(train_cfg.get("seed", 42)),

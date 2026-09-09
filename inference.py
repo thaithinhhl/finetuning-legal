@@ -4,7 +4,7 @@ import argparse
 
 import torch
 from peft import PeftModel
-from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
+from transformers import AutoModelForCausalLM, AutoTokenizer
 
 
 def main() -> None:
@@ -14,22 +14,23 @@ def main() -> None:
     parser.add_argument("--prompt", required=True)
     parser.add_argument("--system-prompt", default="Bạn là trợ lý pháp luật hữu ích, chính xác và thận trọng.")
     parser.add_argument("--max-new-tokens", type=int, default=512)
+    parser.add_argument("--attn-implementation", default="sdpa")
     args = parser.parse_args()
 
+    if not torch.cuda.is_available():
+        raise RuntimeError("BF16 inference requires a CUDA GPU")
+    if not torch.cuda.is_bf16_supported():
+        raise RuntimeError("This GPU does not support bfloat16")
     tokenizer = AutoTokenizer.from_pretrained(args.adapter, use_fast=True)
-    quantization = BitsAndBytesConfig(
-        load_in_4bit=True,
-        bnb_4bit_quant_type="nf4",
-        bnb_4bit_use_double_quant=True,
-        bnb_4bit_compute_dtype=torch.bfloat16,
-    )
     base = AutoModelForCausalLM.from_pretrained(
         args.base_model,
-        quantization_config=quantization,
         device_map="auto",
         torch_dtype=torch.bfloat16,
+        attn_implementation=args.attn_implementation,
+        low_cpu_mem_usage=True,
     )
     model = PeftModel.from_pretrained(base, args.adapter)
+    model.eval()
     messages = [
         {"role": "system", "content": args.system_prompt},
         {"role": "user", "content": args.prompt},

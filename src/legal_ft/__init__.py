@@ -1,1 +1,1 @@
-"""Utilities for QLoRA supervised fine-tuning."""
+"""Utilities for BF16 LoRA supervised fine-tuning."""

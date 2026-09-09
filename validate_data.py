@@ -10,7 +10,7 @@ from src.legal_ft.model import load_tokenizer
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Validate and summarize dataset splits")
-    parser.add_argument("--config", default="configs/qwen2_5_7b_qlora.yaml")
+    parser.add_argument("--config", default="configs/qwen2_5_7b_bf16_lora.yaml")
     args = parser.parse_args()
     config = load_config(args.config)
     tokenizer = load_tokenizer(config["model"])
