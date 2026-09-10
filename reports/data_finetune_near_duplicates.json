@@ -1,0 +1,768 @@
+{
+  "dev": {
+    "pairs": 40,
+    "eval_rows": 18,
+    "groups": {
+      "V2": 8,
+      "U3": 31,
+      "V3": 1
+    },
+    "matches": [
+      {
+        "train_id": "V2-041",
+        "eval_id": "V2-605",
+        "group": "V2",
+        "jaccard": 0.9083,
+        "train_user": "Văn bản:\nTrong vụ tranh chấp quyền sử dụng lối đi chung giữa hai hộ gia đình A và B, hộ A yêu cầu hộ B không được cản trở việc sử dụng lối đi chung mà hai bên đã thỏa thuận từ trước. Hộ B lại cho rằng lối đi này thuộc quyền sở hữu riêng của mình và không đồng ý cho hộ A sử dụng. Tòa án đã xem xét các chứng cứ và quyết định công nhận quyền sử dụng lối đi chung cho cả hai hộ, yêu cầu hộ B không được cản trở hộ A trong việc sử dụng lối đi này.\n\nNhận định:\nTòa án đã quyết định công nhận quyền sử dụng lối đi chung cho cả hộ A và hộ B, yêu cầu hộ B không được cản trở hộ A trong việc sử dụng lối đi đã thỏa thuận.",
+        "eval_user": "Văn bản:\nTrong vụ tranh chấp quyền sử dụng lối đi chung giữa hai hộ gia đình A và B, hộ A yêu cầu hộ B không được cản trở việc sử dụng lối đi mà hai bên đã thỏa thuận từ trước. Hộ B lại cho rằng lối đi này thuộc quyền sở hữu riêng của họ và không đồng ý cho hộ A sử dụng. Tòa án đã xem xét các chứng cứ và quyết định công nhận quyền sử dụng lối đi chung cho cả hai hộ, yêu cầu hộ B không được cản trở hộ A trong việc sử dụng lối đi này.\n\nNhận định:\nTòa án đã quyết định công nhận quyền sử dụng lối đi chung cho cả hộ A và hộ B, yêu cầu hộ B không được cản trở hộ A trong việc sử dụng lối đi đã thỏa thuận."
+      },
+      {
+        "train_id": "U3-362",
+        "eval_id": "U3-411",
+        "group": "U3",
+        "jaccard": 0.9077,
+        "train_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo SỬA ĐỔI, BỔ SUNG MỘT SỐ ĐIỀU CỦA LUẬT ĐẤU THẦU, LUẬT ĐẦU TƯ THEO PHƯƠNG THỨC ĐỐI TÁC CÔNG TƯ, LUẬT HẢI QUAN, LUẬT THUẾ GIÁ TRỊ GIA TĂNG, LUẬT THUẾ XUẤT KHẨU, THUẾ NHẬP KHẨU, LUẬT ĐẦU TƯ, LUẬT ĐẦU TƯ CÔNG, LUẬT QUẢN LÝ, SỬ DỤNG TÀI SẢN CÔNG, Khoản 9 Điều 7 90/2025/QH15 hiện nay quy định thế nào?",
+        "eval_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo SỬA ĐỔI, BỔ SUNG MỘT SỐ ĐIỀU CỦA LUẬT ĐẤU THẦU, LUẬT ĐẦU TƯ THEO PHƯƠNG THỨC ĐỐI TÁC CÔNG TƯ, LUẬT HẢI QUAN, LUẬT THUẾ GIÁ TRỊ GIA TĂNG, LUẬT THUẾ XUẤT KHẨU, THUẾ NHẬP KHẨU, LUẬT ĐẦU TƯ, LUẬT ĐẦU TƯ CÔNG, LUẬT QUẢN LÝ, SỬ DỤNG TÀI SẢN CÔNG, Khoản 39 Điều 7 90/2025/QH15 hiện nay quy định thế nào?"
+      },
+      {
+        "train_id": "U3-459",
+        "eval_id": "U3-458",
+        "group": "U3",
+        "jaccard": 0.8723,
+        "train_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà đầu tư thực hiện dự án đầu tư có sử dụng đất, Khoản 1 Điều 39 115/2024/NĐ-CP hiện nay quy định thế nào?",
+        "eval_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà đầu tư thực hiện dự án đầu tư có sử dụng đất, Khoản 1 Điều 20 115/2024/NĐ-CP hiện nay quy định thế nào?"
+      },
+      {
+        "train_id": "U3-365",
+        "eval_id": "U3-458",
+        "group": "U3",
+        "jaccard": 0.8723,
+        "train_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà đầu tư thực hiện dự án đầu tư có sử dụng đất, Khoản 1 Điều 70 115/2024/NĐ-CP hiện nay quy định thế nào?",
+        "eval_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà đầu tư thực hiện dự án đầu tư có sử dụng đất, Khoản 1 Điều 20 115/2024/NĐ-CP hiện nay quy định thế nào?"
+      },
+      {
+        "train_id": "U3-313",
+        "eval_id": "U3-708",
+        "group": "U3",
+        "jaccard": 0.8723,
+        "train_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà đầu tư thực hiện dự án đầu tư có sử dụng đất, Khoản 2 Điều 8 115/2024/NĐ-CP hiện nay quy định thế nào?",
+        "eval_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà đầu tư thực hiện dự án đầu tư có sử dụng đất, Khoản 2 Điều 13 115/2024/NĐ-CP hiện nay quy định thế nào?"
+      },
+      {
+        "train_id": "U3-462",
+        "eval_id": "U3-708",
+        "group": "U3",
+        "jaccard": 0.8723,
+        "train_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà đầu tư thực hiện dự án đầu tư có sử dụng đất, Khoản 2 Điều 3 115/2024/NĐ-CP hiện nay quy định thế nào?",
+        "eval_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà đầu tư thực hiện dự án đầu tư có sử dụng đất, Khoản 2 Điều 13 115/2024/NĐ-CP hiện nay quy định thế nào?"
+      },
+      {
+        "train_id": "V2-041",
+        "eval_id": "V2-606",
+        "group": "V2",
+        "jaccard": 0.8661,
+        "train_user": "Văn bản:\nTrong vụ tranh chấp quyền sử dụng lối đi chung giữa hai hộ gia đình A và B, hộ A yêu cầu hộ B không được cản trở việc sử dụng lối đi chung mà hai bên đã thỏa thuận từ trước. Hộ B lại cho rằng lối đi này thuộc quyền sở hữu riêng của mình và không đồng ý cho hộ A sử dụng. Tòa án đã xem xét các chứng cứ và quyết định công nhận quyền sử dụng lối đi chung cho cả hai hộ, yêu cầu hộ B không được cản trở hộ A trong việc sử dụng lối đi này.\n\nNhận định:\nTòa án đã quyết định công nhận quyền sử dụng lối đi chung cho cả hộ A và hộ B, yêu cầu hộ B không được cản trở hộ A trong việc sử dụng lối đi đã thỏa thuận.",
+        "eval_user": "Văn bản:\nTrong vụ tranh chấp quyền sử dụng lối đi chung giữa hai hộ gia đình A và B, hộ A yêu cầu hộ B không được cản trở việc sử dụng lối đi mà hai bên đã thỏa thuận từ trước. Hộ B lại cho rằng lối đi này thuộc quyền sở hữu riêng của họ và không đồng ý cho hộ A sử dụng. Tòa án đã xem xét các chứng cứ và quyết định công nhận quyền sử dụng lối đi chung cho cả hai hộ, yêu cầu hộ B không được cản trở hộ A trong việc sử dụng lối đi này.\n\nNhận định:\nTòa án đã quyết định công nhận quyền sử dụng lối đi chung cho mọi hộ A và hộ B, yêu cầu hộ B không được cản trở hộ A trong việc sử dụng lối đi đã thỏa thuận."
+      },
+      {
+        "train_id": "U3-260",
+        "eval_id": "U3-658",
+        "group": "U3",
+        "jaccard": 0.8507,
+        "train_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo SỬA ĐỔI, BỔ SUNG MỘT SỐ ĐIỀU CỦA LUẬT ĐẤU THẦU, LUẬT ĐẦU TƯ THEO PHƯƠNG THỨC ĐỐI TÁC CÔNG TƯ, LUẬT HẢI QUAN, LUẬT THUẾ GIÁ TRỊ GIA TĂNG, LUẬT THUẾ XUẤT KHẨU, THUẾ NHẬP KHẨU, LUẬT ĐẦU TƯ, LUẬT ĐẦU TƯ CÔNG, LUẬT QUẢN LÝ, SỬ DỤNG TÀI SẢN CÔNG, Khoản 17 Điều 6 90/2025/QH15 hiện nay quy định thế nào?",
+        "eval_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo SỬA ĐỔI, BỔ SUNG MỘT SỐ ĐIỀU CỦA LUẬT ĐẤU THẦU, LUẬT ĐẦU TƯ THEO PHƯƠNG THỨC ĐỐI TÁC CÔNG TƯ, LUẬT HẢI QUAN, LUẬT THUẾ GIÁ TRỊ GIA TĂNG, LUẬT THUẾ XUẤT KHẨU, THUẾ NHẬP KHẨU, LUẬT ĐẦU TƯ, LUẬT ĐẦU TƯ CÔNG, LUẬT QUẢN LÝ, SỬ DỤNG TÀI SẢN CÔNG, Khoản 31 Điều 2 90/2025/QH15 hiện nay quy định thế nào?"
+      },
+      {
+        "train_id": "U3-414",
+        "eval_id": "U3-658",
+        "group": "U3",
+        "jaccard": 0.8507,
+        "train_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo SỬA ĐỔI, BỔ SUNG MỘT SỐ ĐIỀU CỦA LUẬT ĐẤU THẦU, LUẬT ĐẦU TƯ THEO PHƯƠNG THỨC ĐỐI TÁC CÔNG TƯ, LUẬT HẢI QUAN, LUẬT THUẾ GIÁ TRỊ GIA TĂNG, LUẬT THUẾ XUẤT KHẨU, THUẾ NHẬP KHẨU, LUẬT ĐẦU TƯ, LUẬT ĐẦU TƯ CÔNG, LUẬT QUẢN LÝ, SỬ DỤNG TÀI SẢN CÔNG, Khoản 3 Điều 3 90/2025/QH15 hiện nay quy định thế nào?",
+        "eval_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo SỬA ĐỔI, BỔ SUNG MỘT SỐ ĐIỀU CỦA LUẬT ĐẤU THẦU, LUẬT ĐẦU TƯ THEO PHƯƠNG THỨC ĐỐI TÁC CÔNG TƯ, LUẬT HẢI QUAN, LUẬT THUẾ GIÁ TRỊ GIA TĂNG, LUẬT THUẾ XUẤT KHẨU, THUẾ NHẬP KHẨU, LUẬT ĐẦU TƯ, LUẬT ĐẦU TƯ CÔNG, LUẬT QUẢN LÝ, SỬ DỤNG TÀI SẢN CÔNG, Khoản 31 Điều 2 90/2025/QH15 hiện nay quy định thế nào?"
+      },
+      {
+        "train_id": "U3-663",
+        "eval_id": "U3-658",
+        "group": "U3",
+        "jaccard": 0.8507,
+        "train_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo SỬA ĐỔI, BỔ SUNG MỘT SỐ ĐIỀU CỦA LUẬT ĐẤU THẦU, LUẬT ĐẦU TƯ THEO PHƯƠNG THỨC ĐỐI TÁC CÔNG TƯ, LUẬT HẢI QUAN, LUẬT THUẾ GIÁ TRỊ GIA TĂNG, LUẬT THUẾ XUẤT KHẨU, THUẾ NHẬP KHẨU, LUẬT ĐẦU TƯ, LUẬT ĐẦU TƯ CÔNG, LUẬT QUẢN LÝ, SỬ DỤNG TÀI SẢN CÔNG, Khoản 15 Điều 1 90/2025/QH15 hiện nay quy định thế nào?",
+        "eval_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo SỬA ĐỔI, BỔ SUNG MỘT SỐ ĐIỀU CỦA LUẬT ĐẤU THẦU, LUẬT ĐẦU TƯ THEO PHƯƠNG THỨC ĐỐI TÁC CÔNG TƯ, LUẬT HẢI QUAN, LUẬT THUẾ GIÁ TRỊ GIA TĂNG, LUẬT THUẾ XUẤT KHẨU, THUẾ NHẬP KHẨU, LUẬT ĐẦU TƯ, LUẬT ĐẦU TƯ CÔNG, LUẬT QUẢN LÝ, SỬ DỤNG TÀI SẢN CÔNG, Khoản 31 Điều 2 90/2025/QH15 hiện nay quy định thế nào?"
+      },
+      {
+        "train_id": "U3-362",
+        "eval_id": "U3-658",
+        "group": "U3",
+        "jaccard": 0.8507,
+        "train_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo SỬA ĐỔI, BỔ SUNG MỘT SỐ ĐIỀU CỦA LUẬT ĐẤU THẦU, LUẬT ĐẦU TƯ THEO PHƯƠNG THỨC ĐỐI TÁC CÔNG TƯ, LUẬT HẢI QUAN, LUẬT THUẾ GIÁ TRỊ GIA TĂNG, LUẬT THUẾ XUẤT KHẨU, THUẾ NHẬP KHẨU, LUẬT ĐẦU TƯ, LUẬT ĐẦU TƯ CÔNG, LUẬT QUẢN LÝ, SỬ DỤNG TÀI SẢN CÔNG, Khoản 9 Điều 7 90/2025/QH15 hiện nay quy định thế nào?",
+        "eval_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo SỬA ĐỔI, BỔ SUNG MỘT SỐ ĐIỀU CỦA LUẬT ĐẤU THẦU, LUẬT ĐẦU TƯ THEO PHƯƠNG THỨC ĐỐI TÁC CÔNG TƯ, LUẬT HẢI QUAN, LUẬT THUẾ GIÁ TRỊ GIA TĂNG, LUẬT THUẾ XUẤT KHẨU, THUẾ NHẬP KHẨU, LUẬT ĐẦU TƯ, LUẬT ĐẦU TƯ CÔNG, LUẬT QUẢN LÝ, SỬ DỤNG TÀI SẢN CÔNG, Khoản 31 Điều 2 90/2025/QH15 hiện nay quy định thế nào?"
+      },
+      {
+        "train_id": "U3-260",
+        "eval_id": "U3-411",
+        "group": "U3",
+        "jaccard": 0.8507,
+        "train_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo SỬA ĐỔI, BỔ SUNG MỘT SỐ ĐIỀU CỦA LUẬT ĐẤU THẦU, LUẬT ĐẦU TƯ THEO PHƯƠNG THỨC ĐỐI TÁC CÔNG TƯ, LUẬT HẢI QUAN, LUẬT THUẾ GIÁ TRỊ GIA TĂNG, LUẬT THUẾ XUẤT KHẨU, THUẾ NHẬP KHẨU, LUẬT ĐẦU TƯ, LUẬT ĐẦU TƯ CÔNG, LUẬT QUẢN LÝ, SỬ DỤNG TÀI SẢN CÔNG, Khoản 17 Điều 6 90/2025/QH15 hiện nay quy định thế nào?",
+        "eval_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo SỬA ĐỔI, BỔ SUNG MỘT SỐ ĐIỀU CỦA LUẬT ĐẤU THẦU, LUẬT ĐẦU TƯ THEO PHƯƠNG THỨC ĐỐI TÁC CÔNG TƯ, LUẬT HẢI QUAN, LUẬT THUẾ GIÁ TRỊ GIA TĂNG, LUẬT THUẾ XUẤT KHẨU, THUẾ NHẬP KHẨU, LUẬT ĐẦU TƯ, LUẬT ĐẦU TƯ CÔNG, LUẬT QUẢN LÝ, SỬ DỤNG TÀI SẢN CÔNG, Khoản 39 Điều 7 90/2025/QH15 hiện nay quy định thế nào?"
+      },
+      {
+        "train_id": "U3-414",
+        "eval_id": "U3-411",
+        "group": "U3",
+        "jaccard": 0.8507,
+        "train_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo SỬA ĐỔI, BỔ SUNG MỘT SỐ ĐIỀU CỦA LUẬT ĐẤU THẦU, LUẬT ĐẦU TƯ THEO PHƯƠNG THỨC ĐỐI TÁC CÔNG TƯ, LUẬT HẢI QUAN, LUẬT THUẾ GIÁ TRỊ GIA TĂNG, LUẬT THUẾ XUẤT KHẨU, THUẾ NHẬP KHẨU, LUẬT ĐẦU TƯ, LUẬT ĐẦU TƯ CÔNG, LUẬT QUẢN LÝ, SỬ DỤNG TÀI SẢN CÔNG, Khoản 3 Điều 3 90/2025/QH15 hiện nay quy định thế nào?",
+        "eval_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo SỬA ĐỔI, BỔ SUNG MỘT SỐ ĐIỀU CỦA LUẬT ĐẤU THẦU, LUẬT ĐẦU TƯ THEO PHƯƠNG THỨC ĐỐI TÁC CÔNG TƯ, LUẬT HẢI QUAN, LUẬT THUẾ GIÁ TRỊ GIA TĂNG, LUẬT THUẾ XUẤT KHẨU, THUẾ NHẬP KHẨU, LUẬT ĐẦU TƯ, LUẬT ĐẦU TƯ CÔNG, LUẬT QUẢN LÝ, SỬ DỤNG TÀI SẢN CÔNG, Khoản 39 Điều 7 90/2025/QH15 hiện nay quy định thế nào?"
+      },
+      {
+        "train_id": "U3-663",
+        "eval_id": "U3-411",
+        "group": "U3",
+        "jaccard": 0.8507,
+        "train_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo SỬA ĐỔI, BỔ SUNG MỘT SỐ ĐIỀU CỦA LUẬT ĐẤU THẦU, LUẬT ĐẦU TƯ THEO PHƯƠNG THỨC ĐỐI TÁC CÔNG TƯ, LUẬT HẢI QUAN, LUẬT THUẾ GIÁ TRỊ GIA TĂNG, LUẬT THUẾ XUẤT KHẨU, THUẾ NHẬP KHẨU, LUẬT ĐẦU TƯ, LUẬT ĐẦU TƯ CÔNG, LUẬT QUẢN LÝ, SỬ DỤNG TÀI SẢN CÔNG, Khoản 15 Điều 1 90/2025/QH15 hiện nay quy định thế nào?",
+        "eval_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo SỬA ĐỔI, BỔ SUNG MỘT SỐ ĐIỀU CỦA LUẬT ĐẤU THẦU, LUẬT ĐẦU TƯ THEO PHƯƠNG THỨC ĐỐI TÁC CÔNG TƯ, LUẬT HẢI QUAN, LUẬT THUẾ GIÁ TRỊ GIA TĂNG, LUẬT THUẾ XUẤT KHẨU, THUẾ NHẬP KHẨU, LUẬT ĐẦU TƯ, LUẬT ĐẦU TƯ CÔNG, LUẬT QUẢN LÝ, SỬ DỤNG TÀI SẢN CÔNG, Khoản 39 Điều 7 90/2025/QH15 hiện nay quy định thế nào?"
+      },
+      {
+        "train_id": "V2-077",
+        "eval_id": "V2-653",
+        "group": "V2",
+        "jaccard": 0.8504,
+        "train_user": "Văn bản:\nCông khai thông tin kết quả thực hiện hợp đồng đặt hàng (trừ thông tin thuộc danh mục bí mật nhà nước): Tổ chức đặt hàng công khai thông tin về kết quả thực hiện hợp đồng trên Hệ thống mạng đấu thầu quốc gia, gồm: tiến độ thực hiện; chất lượng hàng hóa, dịch vụ; vi phạm hợp đồng đặt hàng và lý do vi phạm; các thông tin khác (nếu cần thiết). Thời gian đăng tải có thể trong hoặc sau thời thực hiện hợp đồng nhưng không muộn hơn 06 tháng kể từ ngày kết thúc thời gian hoàn thành đặt hàng.\n\nNhận định:\nTổ chức đặt hàng có trách nhiệm công khai thông tin về kết quả thực hiện hợp đồng trên Hệ thống mạng đấu thầu quốc gia, bao gồm tiến độ và chất lượng hàng hóa, dịch vụ trong vòng 06 tháng sau khi hoàn thành.",
+        "eval_user": "Văn bản:\nCông khai thông tin kết quả thực hiện hợp đồng đặt hàng (trừ thông tin thuộc danh mục bí mật nhà nước): Tổ chức đặt hàng công khai thông tin về kết quả thực hiện hợp đồng trên Hệ thống mạng đấu thầu quốc gia, gồm: tiến độ thực hiện; chất lượng hàng hóa, dịch vụ; vi phạm hợp đồng đặt hàng và lý do vi phạm; các thông tin khác (nếu cần thiết). Thời gian đăng tải có thể trong hoặc sau thời thực hiện hợp đồng nhưng không muộn hơn 06 tháng kể từ ngày kết thúc thời gian hoàn thành đặt hàng.\n\nNhận định:\nTổ chức đặt hàng phải công khai thông tin về kết quả thực hiện hợp đồng trên Hệ thống mạng đấu thầu quốc gia, bao gồm tiến độ, chất lượng và lý do vi phạm hợp đồng trong vòng 06 tháng sau khi hoàn thành."
+      },
+      {
+        "train_id": "V2-078",
+        "eval_id": "V2-654",
+        "group": "V2",
+        "jaccard": 0.8504,
+        "train_user": "Văn bản:\nCông khai thông tin kết quả thực hiện hợp đồng đặt hàng (trừ thông tin thuộc danh mục bí mật nhà nước): Tổ chức đặt hàng công khai thông tin về kết quả thực hiện hợp đồng trên Hệ thống mạng đấu thầu quốc gia, gồm: tiến độ thực hiện; chất lượng hàng hóa, dịch vụ; vi phạm hợp đồng đặt hàng và lý do vi phạm; các thông tin khác (nếu cần thiết). Thời gian đăng tải có thể trong hoặc sau thời thực hiện hợp đồng nhưng không muộn hơn 06 tháng kể từ ngày kết thúc thời gian hoàn thành đặt hàng.\n\nNhận định:\nTổ chức đặt hàng có trách nhiệm công khai thông tin về kết quả thực hiện hợp đồng trên Hệ thống mạng đấu thầu quốc gia, bao gồm tiến độ và chất lượng hàng hóa, dịch vụ trong vòng 13 tháng sau khi hoàn thành.",
+        "eval_user": "Văn bản:\nCông khai thông tin kết quả thực hiện hợp đồng đặt hàng (trừ thông tin thuộc danh mục bí mật nhà nước): Tổ chức đặt hàng công khai thông tin về kết quả thực hiện hợp đồng trên Hệ thống mạng đấu thầu quốc gia, gồm: tiến độ thực hiện; chất lượng hàng hóa, dịch vụ; vi phạm hợp đồng đặt hàng và lý do vi phạm; các thông tin khác (nếu cần thiết). Thời gian đăng tải có thể trong hoặc sau thời thực hiện hợp đồng nhưng không muộn hơn 06 tháng kể từ ngày kết thúc thời gian hoàn thành đặt hàng.\n\nNhận định:\nTổ chức đặt hàng phải công khai thông tin về kết quả thực hiện hợp đồng trên Hệ thống mạng đấu thầu quốc gia, bao gồm tiến độ, chất lượng và lý do vi phạm hợp đồng trong vòng 13 tháng sau khi hoàn thành."
+      },
+      {
+        "train_id": "U3-035",
+        "eval_id": "U3-515",
+        "group": "U3",
+        "jaccard": 0.85,
+        "train_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định hoạt động đào tạo, bồi dưỡng kiến thức và thi, cấp, thu hồi chứng chỉ nghiệp vụ chuyên môn về đấu thầu, Khoản 3 Điều 37 02/2024/TT-BKHĐT hiện nay quy định thế nào?",
+        "eval_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định hoạt động đào tạo, bồi dưỡng kiến thức và thi, cấp, thu hồi chứng chỉ nghiệp vụ chuyên môn về đấu thầu, Khoản 3 Điều 26 02/2024/TT-BKHĐT hiện nay quy định thế nào?"
+      },
+      {
+        "train_id": "U3-031",
+        "eval_id": "U3-315",
+        "group": "U3",
+        "jaccard": 0.8361,
+        "train_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà đầu tư thực hiện dự án thuộc trường hợp phải tổ chức đấu thầu theo quy định của pháp luật quản lý ngành, lĩnh vực, Khoản 1 Điều 25 23/2024/NĐ-CP hiện nay quy định thế nào?",
+        "eval_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà đầu tư thực hiện dự án thuộc trường hợp phải tổ chức đấu thầu theo quy định của pháp luật quản lý ngành, lĩnh vực, Khoản 6 Điều 65 23/2024/NĐ-CP hiện nay quy định thế nào?"
+      },
+      {
+        "train_id": "U3-564",
+        "eval_id": "U3-315",
+        "group": "U3",
+        "jaccard": 0.8361,
+        "train_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà đầu tư thực hiện dự án thuộc trường hợp phải tổ chức đấu thầu theo quy định của pháp luật quản lý ngành, lĩnh vực, Khoản 7 Điều 38 23/2024/NĐ-CP hiện nay quy định thế nào?",
+        "eval_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà đầu tư thực hiện dự án thuộc trường hợp phải tổ chức đấu thầu theo quy định của pháp luật quản lý ngành, lĩnh vực, Khoản 6 Điều 65 23/2024/NĐ-CP hiện nay quy định thế nào?"
+      },
+      {
+        "train_id": "U3-762",
+        "eval_id": "U3-315",
+        "group": "U3",
+        "jaccard": 0.8361,
+        "train_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà đầu tư thực hiện dự án thuộc trường hợp phải tổ chức đấu thầu theo quy định của pháp luật quản lý ngành, lĩnh vực, Khoản 4 Điều 18 23/2024/NĐ-CP hiện nay quy định thế nào?",
+        "eval_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà đầu tư thực hiện dự án thuộc trường hợp phải tổ chức đấu thầu theo quy định của pháp luật quản lý ngành, lĩnh vực, Khoản 6 Điều 65 23/2024/NĐ-CP hiện nay quy định thế nào?"
+      },
+      {
+        "train_id": "U3-308",
+        "eval_id": "U3-315",
+        "group": "U3",
+        "jaccard": 0.8361,
+        "train_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà đầu tư thực hiện dự án thuộc trường hợp phải tổ chức đấu thầu theo quy định của pháp luật quản lý ngành, lĩnh vực, Khoản 7 Điều 57 23/2024/NĐ-CP hiện nay quy định thế nào?",
+        "eval_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà đầu tư thực hiện dự án thuộc trường hợp phải tổ chức đấu thầu theo quy định của pháp luật quản lý ngành, lĩnh vực, Khoản 6 Điều 65 23/2024/NĐ-CP hiện nay quy định thế nào?"
+      },
+      {
+        "train_id": "V2-042",
+        "eval_id": "V2-605",
+        "group": "V2",
+        "jaccard": 0.8348,
+        "train_user": "Văn bản:\nTrong vụ tranh chấp quyền sử dụng lối đi chung giữa hai hộ gia đình A và B, hộ A yêu cầu hộ B không được cản trở việc sử dụng lối đi chung mà hai bên đã thỏa thuận từ trước. Hộ B lại cho rằng lối đi này thuộc quyền sở hữu riêng của mình và không đồng ý cho hộ A sử dụng. Tòa án đã xem xét các chứng cứ và quyết định công nhận quyền sử dụng lối đi chung cho cả hai hộ, yêu cầu hộ B không được cản trở hộ A trong việc sử dụng lối đi này.\n\nNhận định:\nTòa án đã quyết định công nhận quyền sử dụng lối đi chung cho cả hộ C và hộ B, yêu cầu hộ B không được cản trở hộ C trong việc sử dụng lối đi đã thỏa thuận.",
+        "eval_user": "Văn bản:\nTrong vụ tranh chấp quyền sử dụng lối đi chung giữa hai hộ gia đình A và B, hộ A yêu cầu hộ B không được cản trở việc sử dụng lối đi mà hai bên đã thỏa thuận từ trước. Hộ B lại cho rằng lối đi này thuộc quyền sở hữu riêng của họ và không đồng ý cho hộ A sử dụng. Tòa án đã xem xét các chứng cứ và quyết định công nhận quyền sử dụng lối đi chung cho cả hai hộ, yêu cầu hộ B không được cản trở hộ A trong việc sử dụng lối đi này.\n\nNhận định:\nTòa án đã quyết định công nhận quyền sử dụng lối đi chung cho cả hộ A và hộ B, yêu cầu hộ B không được cản trở hộ A trong việc sử dụng lối đi đã thỏa thuận."
+      },
+      {
+        "train_id": "U3-509",
+        "eval_id": "U3-032",
+        "group": "U3",
+        "jaccard": 0.8333,
+        "train_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà thầu, Khoản 7 Điều 138 214/2025/NĐ-CP hiện nay quy định thế nào?",
+        "eval_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà thầu, Khoản 7 Điều 14 214/2025/NĐ-CP hiện nay quy định thế nào?"
+      },
+      {
+        "train_id": "U3-465",
+        "eval_id": "U3-211",
+        "group": "U3",
+        "jaccard": 0.8333,
+        "train_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà thầu, Khoản 1 Điều 112 24/2024/NĐ-CP hiện nay quy định thế nào?",
+        "eval_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà thầu, Khoản 1 Điều 106 24/2024/NĐ-CP hiện nay quy định thế nào?"
+      },
+      {
+        "train_id": "U3-709",
+        "eval_id": "U3-211",
+        "group": "U3",
+        "jaccard": 0.8333,
+        "train_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà thầu, Khoản 1 Điều 14 24/2024/NĐ-CP hiện nay quy định thế nào?",
+        "eval_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà thầu, Khoản 1 Điều 106 24/2024/NĐ-CP hiện nay quy định thế nào?"
+      },
+      {
+        "train_id": "U3-112",
+        "eval_id": "U3-211",
+        "group": "U3",
+        "jaccard": 0.8333,
+        "train_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà thầu, Khoản 1 Điều 8 24/2024/NĐ-CP hiện nay quy định thế nào?",
+        "eval_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà thầu, Khoản 1 Điều 106 24/2024/NĐ-CP hiện nay quy định thế nào?"
+      },
+      {
+        "train_id": "U3-309",
+        "eval_id": "U3-211",
+        "group": "U3",
+        "jaccard": 0.8333,
+        "train_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà thầu, Khoản 1 Điều 7 24/2024/NĐ-CP hiện nay quy định thế nào?",
+        "eval_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà thầu, Khoản 1 Điều 106 24/2024/NĐ-CP hiện nay quy định thế nào?"
+      },
+      {
+        "train_id": "U3-664",
+        "eval_id": "U3-713",
+        "group": "U3",
+        "jaccard": 0.8333,
+        "train_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà thầu, Khoản 3 Điều 35 24/2024/NĐ-CP hiện nay quy định thế nào?",
+        "eval_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà thầu, Khoản 3 Điều 73 24/2024/NĐ-CP hiện nay quy định thế nào?"
+      },
+      {
+        "train_id": "U3-310",
+        "eval_id": "U3-713",
+        "group": "U3",
+        "jaccard": 0.8333,
+        "train_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà thầu, Khoản 3 Điều 134 24/2024/NĐ-CP hiện nay quy định thế nào?",
+        "eval_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà thầu, Khoản 3 Điều 73 24/2024/NĐ-CP hiện nay quy định thế nào?"
+      },
+      {
+        "train_id": "U3-760",
+        "eval_id": "U3-713",
+        "group": "U3",
+        "jaccard": 0.8333,
+        "train_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà thầu, Khoản 3 Điều 64 24/2024/NĐ-CP hiện nay quy định thế nào?",
+        "eval_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà thầu, Khoản 3 Điều 73 24/2024/NĐ-CP hiện nay quy định thế nào?"
+      },
+      {
+        "train_id": "U3-115",
+        "eval_id": "U3-761",
+        "group": "U3",
+        "jaccard": 0.8333,
+        "train_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định một số nội dung về hoạt động đấu thầu trong phạm vi quản lý của Bộ Quốc phòng, Khoản 2 Điều 17 141/2025/TT-BQP hiện nay quy định thế nào?",
+        "eval_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định một số nội dung về hoạt động đấu thầu trong phạm vi quản lý của Bộ Quốc phòng, Khoản 2 Điều 9 141/2025/TT-BQP hiện nay quy định thế nào?"
+      },
+      {
+        "train_id": "U3-161",
+        "eval_id": "U3-765",
+        "group": "U3",
+        "jaccard": 0.8333,
+        "train_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà thầu, Khoản 4 Điều 33 214/2025/NĐ-CP hiện nay quy định thế nào?",
+        "eval_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà thầu, Khoản 4 Điều 110 214/2025/NĐ-CP hiện nay quy định thế nào?"
+      },
+      {
+        "train_id": "V3-119",
+        "eval_id": "V3-436",
+        "group": "V3",
+        "jaccard": 0.8333,
+        "train_user": "Xin hỏi có bao nhiêu quy định về tuyển sinh đại học hiện nay?",
+        "eval_user": "Có bao nhiêu quy định về tuyển sinh đại học hiện nay?"
+      },
+      {
+        "train_id": "U3-664",
+        "eval_id": "U3-615",
+        "group": "U3",
+        "jaccard": 0.8333,
+        "train_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà thầu, Khoản 3 Điều 35 24/2024/NĐ-CP hiện nay quy định thế nào?",
+        "eval_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà thầu, Khoản 3 Điều 97 24/2024/NĐ-CP hiện nay quy định thế nào?"
+      },
+      {
+        "train_id": "U3-310",
+        "eval_id": "U3-615",
+        "group": "U3",
+        "jaccard": 0.8333,
+        "train_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà thầu, Khoản 3 Điều 134 24/2024/NĐ-CP hiện nay quy định thế nào?",
+        "eval_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà thầu, Khoản 3 Điều 97 24/2024/NĐ-CP hiện nay quy định thế nào?"
+      },
+      {
+        "train_id": "U3-760",
+        "eval_id": "U3-615",
+        "group": "U3",
+        "jaccard": 0.8333,
+        "train_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà thầu, Khoản 3 Điều 64 24/2024/NĐ-CP hiện nay quy định thế nào?",
+        "eval_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà thầu, Khoản 3 Điều 97 24/2024/NĐ-CP hiện nay quy định thế nào?"
+      },
+      {
+        "train_id": "V2-042",
+        "eval_id": "V2-606",
+        "group": "V2",
+        "jaccard": 0.812,
+        "train_user": "Văn bản:\nTrong vụ tranh chấp quyền sử dụng lối đi chung giữa hai hộ gia đình A và B, hộ A yêu cầu hộ B không được cản trở việc sử dụng lối đi chung mà hai bên đã thỏa thuận từ trước. Hộ B lại cho rằng lối đi này thuộc quyền sở hữu riêng của mình và không đồng ý cho hộ A sử dụng. Tòa án đã xem xét các chứng cứ và quyết định công nhận quyền sử dụng lối đi chung cho cả hai hộ, yêu cầu hộ B không được cản trở hộ A trong việc sử dụng lối đi này.\n\nNhận định:\nTòa án đã quyết định công nhận quyền sử dụng lối đi chung cho cả hộ C và hộ B, yêu cầu hộ B không được cản trở hộ C trong việc sử dụng lối đi đã thỏa thuận.",
+        "eval_user": "Văn bản:\nTrong vụ tranh chấp quyền sử dụng lối đi chung giữa hai hộ gia đình A và B, hộ A yêu cầu hộ B không được cản trở việc sử dụng lối đi mà hai bên đã thỏa thuận từ trước. Hộ B lại cho rằng lối đi này thuộc quyền sở hữu riêng của họ và không đồng ý cho hộ A sử dụng. Tòa án đã xem xét các chứng cứ và quyết định công nhận quyền sử dụng lối đi chung cho cả hai hộ, yêu cầu hộ B không được cản trở hộ A trong việc sử dụng lối đi này.\n\nNhận định:\nTòa án đã quyết định công nhận quyền sử dụng lối đi chung cho mọi hộ A và hộ B, yêu cầu hộ B không được cản trở hộ A trong việc sử dụng lối đi đã thỏa thuận."
+      },
+      {
+        "train_id": "V2-078",
+        "eval_id": "V2-653",
+        "group": "V2",
+        "jaccard": 0.8077,
+        "train_user": "Văn bản:\nCông khai thông tin kết quả thực hiện hợp đồng đặt hàng (trừ thông tin thuộc danh mục bí mật nhà nước): Tổ chức đặt hàng công khai thông tin về kết quả thực hiện hợp đồng trên Hệ thống mạng đấu thầu quốc gia, gồm: tiến độ thực hiện; chất lượng hàng hóa, dịch vụ; vi phạm hợp đồng đặt hàng và lý do vi phạm; các thông tin khác (nếu cần thiết). Thời gian đăng tải có thể trong hoặc sau thời thực hiện hợp đồng nhưng không muộn hơn 06 tháng kể từ ngày kết thúc thời gian hoàn thành đặt hàng.\n\nNhận định:\nTổ chức đặt hàng có trách nhiệm công khai thông tin về kết quả thực hiện hợp đồng trên Hệ thống mạng đấu thầu quốc gia, bao gồm tiến độ và chất lượng hàng hóa, dịch vụ trong vòng 13 tháng sau khi hoàn thành.",
+        "eval_user": "Văn bản:\nCông khai thông tin kết quả thực hiện hợp đồng đặt hàng (trừ thông tin thuộc danh mục bí mật nhà nước): Tổ chức đặt hàng công khai thông tin về kết quả thực hiện hợp đồng trên Hệ thống mạng đấu thầu quốc gia, gồm: tiến độ thực hiện; chất lượng hàng hóa, dịch vụ; vi phạm hợp đồng đặt hàng và lý do vi phạm; các thông tin khác (nếu cần thiết). Thời gian đăng tải có thể trong hoặc sau thời thực hiện hợp đồng nhưng không muộn hơn 06 tháng kể từ ngày kết thúc thời gian hoàn thành đặt hàng.\n\nNhận định:\nTổ chức đặt hàng phải công khai thông tin về kết quả thực hiện hợp đồng trên Hệ thống mạng đấu thầu quốc gia, bao gồm tiến độ, chất lượng và lý do vi phạm hợp đồng trong vòng 06 tháng sau khi hoàn thành."
+      },
+      {
+        "train_id": "V2-077",
+        "eval_id": "V2-654",
+        "group": "V2",
+        "jaccard": 0.8077,
+        "train_user": "Văn bản:\nCông khai thông tin kết quả thực hiện hợp đồng đặt hàng (trừ thông tin thuộc danh mục bí mật nhà nước): Tổ chức đặt hàng công khai thông tin về kết quả thực hiện hợp đồng trên Hệ thống mạng đấu thầu quốc gia, gồm: tiến độ thực hiện; chất lượng hàng hóa, dịch vụ; vi phạm hợp đồng đặt hàng và lý do vi phạm; các thông tin khác (nếu cần thiết). Thời gian đăng tải có thể trong hoặc sau thời thực hiện hợp đồng nhưng không muộn hơn 06 tháng kể từ ngày kết thúc thời gian hoàn thành đặt hàng.\n\nNhận định:\nTổ chức đặt hàng có trách nhiệm công khai thông tin về kết quả thực hiện hợp đồng trên Hệ thống mạng đấu thầu quốc gia, bao gồm tiến độ và chất lượng hàng hóa, dịch vụ trong vòng 06 tháng sau khi hoàn thành.",
+        "eval_user": "Văn bản:\nCông khai thông tin kết quả thực hiện hợp đồng đặt hàng (trừ thông tin thuộc danh mục bí mật nhà nước): Tổ chức đặt hàng công khai thông tin về kết quả thực hiện hợp đồng trên Hệ thống mạng đấu thầu quốc gia, gồm: tiến độ thực hiện; chất lượng hàng hóa, dịch vụ; vi phạm hợp đồng đặt hàng và lý do vi phạm; các thông tin khác (nếu cần thiết). Thời gian đăng tải có thể trong hoặc sau thời thực hiện hợp đồng nhưng không muộn hơn 06 tháng kể từ ngày kết thúc thời gian hoàn thành đặt hàng.\n\nNhận định:\nTổ chức đặt hàng phải công khai thông tin về kết quả thực hiện hợp đồng trên Hệ thống mạng đấu thầu quốc gia, bao gồm tiến độ, chất lượng và lý do vi phạm hợp đồng trong vòng 13 tháng sau khi hoàn thành."
+      },
+      {
+        "train_id": "U3-034",
+        "eval_id": "U3-562",
+        "group": "U3",
+        "jaccard": 0.8,
+        "train_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định về đấu thầu thuốc tại các cơ sở y tế công lập, Khoản 2 Điều 18 07/2024/TT-BYT hiện nay quy định thế nào?",
+        "eval_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định về đấu thầu thuốc tại các cơ sở y tế công lập, Khoản 2 Điều 26 07/2024/TT-BYT hiện nay quy định thế nào?"
+      }
+    ]
+  },
+  "internal_test": {
+    "pairs": 53,
+    "eval_rows": 25,
+    "groups": {
+      "U3": 42,
+      "V2": 10,
+      "V3": 1
+    },
+    "matches": [
+      {
+        "train_id": "U3-414",
+        "eval_id": "U3-361",
+        "group": "U3",
+        "jaccard": 0.9077,
+        "train_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo SỬA ĐỔI, BỔ SUNG MỘT SỐ ĐIỀU CỦA LUẬT ĐẤU THẦU, LUẬT ĐẦU TƯ THEO PHƯƠNG THỨC ĐỐI TÁC CÔNG TƯ, LUẬT HẢI QUAN, LUẬT THUẾ GIÁ TRỊ GIA TĂNG, LUẬT THUẾ XUẤT KHẨU, THUẾ NHẬP KHẨU, LUẬT ĐẦU TƯ, LUẬT ĐẦU TƯ CÔNG, LUẬT QUẢN LÝ, SỬ DỤNG TÀI SẢN CÔNG, Khoản 3 Điều 3 90/2025/QH15 hiện nay quy định thế nào?",
+        "eval_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo SỬA ĐỔI, BỔ SUNG MỘT SỐ ĐIỀU CỦA LUẬT ĐẤU THẦU, LUẬT ĐẦU TƯ THEO PHƯƠNG THỨC ĐỐI TÁC CÔNG TƯ, LUẬT HẢI QUAN, LUẬT THUẾ GIÁ TRỊ GIA TĂNG, LUẬT THUẾ XUẤT KHẨU, THUẾ NHẬP KHẨU, LUẬT ĐẦU TƯ, LUẬT ĐẦU TƯ CÔNG, LUẬT QUẢN LÝ, SỬ DỤNG TÀI SẢN CÔNG, Khoản 2 Điều 3 90/2025/QH15 hiện nay quy định thế nào?"
+      },
+      {
+        "train_id": "U3-663",
+        "eval_id": "U3-114",
+        "group": "U3",
+        "jaccard": 0.9077,
+        "train_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo SỬA ĐỔI, BỔ SUNG MỘT SỐ ĐIỀU CỦA LUẬT ĐẤU THẦU, LUẬT ĐẦU TƯ THEO PHƯƠNG THỨC ĐỐI TÁC CÔNG TƯ, LUẬT HẢI QUAN, LUẬT THUẾ GIÁ TRỊ GIA TĂNG, LUẬT THUẾ XUẤT KHẨU, THUẾ NHẬP KHẨU, LUẬT ĐẦU TƯ, LUẬT ĐẦU TƯ CÔNG, LUẬT QUẢN LÝ, SỬ DỤNG TÀI SẢN CÔNG, Khoản 15 Điều 1 90/2025/QH15 hiện nay quy định thế nào?",
+        "eval_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo SỬA ĐỔI, BỔ SUNG MỘT SỐ ĐIỀU CỦA LUẬT ĐẤU THẦU, LUẬT ĐẦU TƯ THEO PHƯƠNG THỨC ĐỐI TÁC CÔNG TƯ, LUẬT HẢI QUAN, LUẬT THUẾ GIÁ TRỊ GIA TĂNG, LUẬT THUẾ XUẤT KHẨU, THUẾ NHẬP KHẨU, LUẬT ĐẦU TƯ, LUẬT ĐẦU TƯ CÔNG, LUẬT QUẢN LÝ, SỬ DỤNG TÀI SẢN CÔNG, Khoản 34 Điều 1 90/2025/QH15 hiện nay quy định thế nào?"
+      },
+      {
+        "train_id": "V2-782",
+        "eval_id": "V2-628",
+        "group": "V2",
+        "jaccard": 0.9038,
+        "train_user": "Văn bản:\nSau khi sửa lỗi, hiệu chỉnh sai lệch và áp đơn giá đối với phần sai lệch thiếu theo quy định tại các khoản 1, 2, 3 và 4 Điều này, bên mời thầu phải thông báo bằng văn bản cho nhà thầu về việc sửa lỗi, hiệu chỉnh sai lệch, áp đơn giá đối với hồ sơ dự thầu của nhà thầu. Trong thời hạn 03 ngày làm việc kể từ ngày nhận được thông báo của bên mời thầu, nhà thầu phải có văn bản thông báo cho bên mời thầu về việc chấp thuận kết quả sửa lỗi, hiệu chỉnh sai lệch, áp đơn giá theo thông báo của bên mời thầu. Trường hợp nhà thầu không đồng ý với kết quả sửa lỗi, hiệu chỉnh sai lệch, áp đơn giá theo thông báo của bên mời thầu thì hồ sơ dự thầu của nhà thầu đó bị loại, trừ trường hợp việc sửa lỗi, hiệu chỉnh sai lệch, áp đơn giá của bên mời thầu không phù hợp, chính xác.\n\nNhận định:\nNhà thầu cần phản hồi bằng văn bản trong vòng 7 ngày làm việc sau khi nhận thông báo từ bên mời thầu về việc sửa lỗi và hiệu chỉnh sai lệch trong hồ sơ dự thầu.",
+        "eval_user": "Văn bản:\nSau khi sửa lỗi, hiệu chỉnh sai lệch và áp đơn giá đối với phần sai lệch thiếu theo quy định tại các khoản 1, 2, 3 và 4 Điều này, bên mời thầu phải thông báo bằng văn bản cho nhà thầu về việc sửa lỗi, hiệu chỉnh sai lệch, áp đơn giá đối với hồ sơ dự thầu của nhà thầu. Trong thời hạn 03 ngày làm việc kể từ ngày nhận được thông báo của bên mời thầu, nhà thầu phải có văn bản thông báo cho bên mời thầu về việc chấp thuận kết quả sửa lỗi, hiệu chỉnh sai lệch, áp đơn giá theo thông báo của bên mời thầu. Trường hợp nhà thầu không đồng ý với kết quả sửa lỗi, hiệu chỉnh sai lệch, áp đơn giá theo thông báo của bên mời thầu thì hồ sơ dự thầu của nhà thầu đó bị loại, trừ trường hợp việc sửa lỗi, hiệu chỉnh sai lệch, áp đơn giá của bên mời thầu không phù hợp, chính xác.\n\nNhận định:\nNhà thầu cần phản hồi bằng văn bản trong 7 ngày làm việc kể từ khi nhận thông báo từ bên mời thầu về việc sửa lỗi và hiệu chỉnh sai lệch hồ sơ dự thầu."
+      },
+      {
+        "train_id": "V2-781",
+        "eval_id": "V2-627",
+        "group": "V2",
+        "jaccard": 0.9032,
+        "train_user": "Văn bản:\nSau khi sửa lỗi, hiệu chỉnh sai lệch và áp đơn giá đối với phần sai lệch thiếu theo quy định tại các khoản 1, 2, 3 và 4 Điều này, bên mời thầu phải thông báo bằng văn bản cho nhà thầu về việc sửa lỗi, hiệu chỉnh sai lệch, áp đơn giá đối với hồ sơ dự thầu của nhà thầu. Trong thời hạn 03 ngày làm việc kể từ ngày nhận được thông báo của bên mời thầu, nhà thầu phải có văn bản thông báo cho bên mời thầu về việc chấp thuận kết quả sửa lỗi, hiệu chỉnh sai lệch, áp đơn giá theo thông báo của bên mời thầu. Trường hợp nhà thầu không đồng ý với kết quả sửa lỗi, hiệu chỉnh sai lệch, áp đơn giá theo thông báo của bên mời thầu thì hồ sơ dự thầu của nhà thầu đó bị loại, trừ trường hợp việc sửa lỗi, hiệu chỉnh sai lệch, áp đơn giá của bên mời thầu không phù hợp, chính xác.\n\nNhận định:\nNhà thầu cần phản hồi bằng văn bản trong vòng 03 ngày làm việc sau khi nhận thông báo từ bên mời thầu về việc sửa lỗi và hiệu chỉnh sai lệch trong hồ sơ dự thầu.",
+        "eval_user": "Văn bản:\nSau khi sửa lỗi, hiệu chỉnh sai lệch và áp đơn giá đối với phần sai lệch thiếu theo quy định tại các khoản 1, 2, 3 và 4 Điều này, bên mời thầu phải thông báo bằng văn bản cho nhà thầu về việc sửa lỗi, hiệu chỉnh sai lệch, áp đơn giá đối với hồ sơ dự thầu của nhà thầu. Trong thời hạn 03 ngày làm việc kể từ ngày nhận được thông báo của bên mời thầu, nhà thầu phải có văn bản thông báo cho bên mời thầu về việc chấp thuận kết quả sửa lỗi, hiệu chỉnh sai lệch, áp đơn giá theo thông báo của bên mời thầu. Trường hợp nhà thầu không đồng ý với kết quả sửa lỗi, hiệu chỉnh sai lệch, áp đơn giá theo thông báo của bên mời thầu thì hồ sơ dự thầu của nhà thầu đó bị loại, trừ trường hợp việc sửa lỗi, hiệu chỉnh sai lệch, áp đơn giá của bên mời thầu không phù hợp, chính xác.\n\nNhận định:\nNhà thầu cần phản hồi bằng văn bản trong 03 ngày làm việc kể từ khi nhận thông báo từ bên mời thầu về việc sửa lỗi và hiệu chỉnh sai lệch hồ sơ dự thầu."
+      },
+      {
+        "train_id": "U3-031",
+        "eval_id": "U3-210",
+        "group": "U3",
+        "jaccard": 0.8983,
+        "train_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà đầu tư thực hiện dự án thuộc trường hợp phải tổ chức đấu thầu theo quy định của pháp luật quản lý ngành, lĩnh vực, Khoản 1 Điều 25 23/2024/NĐ-CP hiện nay quy định thế nào?",
+        "eval_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà đầu tư thực hiện dự án thuộc trường hợp phải tổ chức đấu thầu theo quy định của pháp luật quản lý ngành, lĩnh vực, Khoản 1 Điều 18 23/2024/NĐ-CP hiện nay quy định thế nào?"
+      },
+      {
+        "train_id": "U3-762",
+        "eval_id": "U3-210",
+        "group": "U3",
+        "jaccard": 0.8983,
+        "train_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà đầu tư thực hiện dự án thuộc trường hợp phải tổ chức đấu thầu theo quy định của pháp luật quản lý ngành, lĩnh vực, Khoản 4 Điều 18 23/2024/NĐ-CP hiện nay quy định thế nào?",
+        "eval_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà đầu tư thực hiện dự án thuộc trường hợp phải tổ chức đấu thầu theo quy định của pháp luật quản lý ngành, lĩnh vực, Khoản 1 Điều 18 23/2024/NĐ-CP hiện nay quy định thế nào?"
+      },
+      {
+        "train_id": "V2-782",
+        "eval_id": "V2-627",
+        "group": "V2",
+        "jaccard": 0.8974,
+        "train_user": "Văn bản:\nSau khi sửa lỗi, hiệu chỉnh sai lệch và áp đơn giá đối với phần sai lệch thiếu theo quy định tại các khoản 1, 2, 3 và 4 Điều này, bên mời thầu phải thông báo bằng văn bản cho nhà thầu về việc sửa lỗi, hiệu chỉnh sai lệch, áp đơn giá đối với hồ sơ dự thầu của nhà thầu. Trong thời hạn 03 ngày làm việc kể từ ngày nhận được thông báo của bên mời thầu, nhà thầu phải có văn bản thông báo cho bên mời thầu về việc chấp thuận kết quả sửa lỗi, hiệu chỉnh sai lệch, áp đơn giá theo thông báo của bên mời thầu. Trường hợp nhà thầu không đồng ý với kết quả sửa lỗi, hiệu chỉnh sai lệch, áp đơn giá theo thông báo của bên mời thầu thì hồ sơ dự thầu của nhà thầu đó bị loại, trừ trường hợp việc sửa lỗi, hiệu chỉnh sai lệch, áp đơn giá của bên mời thầu không phù hợp, chính xác.\n\nNhận định:\nNhà thầu cần phản hồi bằng văn bản trong vòng 7 ngày làm việc sau khi nhận thông báo từ bên mời thầu về việc sửa lỗi và hiệu chỉnh sai lệch trong hồ sơ dự thầu.",
+        "eval_user": "Văn bản:\nSau khi sửa lỗi, hiệu chỉnh sai lệch và áp đơn giá đối với phần sai lệch thiếu theo quy định tại các khoản 1, 2, 3 và 4 Điều này, bên mời thầu phải thông báo bằng văn bản cho nhà thầu về việc sửa lỗi, hiệu chỉnh sai lệch, áp đơn giá đối với hồ sơ dự thầu của nhà thầu. Trong thời hạn 03 ngày làm việc kể từ ngày nhận được thông báo của bên mời thầu, nhà thầu phải có văn bản thông báo cho bên mời thầu về việc chấp thuận kết quả sửa lỗi, hiệu chỉnh sai lệch, áp đơn giá theo thông báo của bên mời thầu. Trường hợp nhà thầu không đồng ý với kết quả sửa lỗi, hiệu chỉnh sai lệch, áp đơn giá theo thông báo của bên mời thầu thì hồ sơ dự thầu của nhà thầu đó bị loại, trừ trường hợp việc sửa lỗi, hiệu chỉnh sai lệch, áp đơn giá của bên mời thầu không phù hợp, chính xác.\n\nNhận định:\nNhà thầu cần phản hồi bằng văn bản trong 03 ngày làm việc kể từ khi nhận thông báo từ bên mời thầu về việc sửa lỗi và hiệu chỉnh sai lệch hồ sơ dự thầu."
+      },
+      {
+        "train_id": "V2-781",
+        "eval_id": "V2-628",
+        "group": "V2",
+        "jaccard": 0.8974,
+        "train_user": "Văn bản:\nSau khi sửa lỗi, hiệu chỉnh sai lệch và áp đơn giá đối với phần sai lệch thiếu theo quy định tại các khoản 1, 2, 3 và 4 Điều này, bên mời thầu phải thông báo bằng văn bản cho nhà thầu về việc sửa lỗi, hiệu chỉnh sai lệch, áp đơn giá đối với hồ sơ dự thầu của nhà thầu. Trong thời hạn 03 ngày làm việc kể từ ngày nhận được thông báo của bên mời thầu, nhà thầu phải có văn bản thông báo cho bên mời thầu về việc chấp thuận kết quả sửa lỗi, hiệu chỉnh sai lệch, áp đơn giá theo thông báo của bên mời thầu. Trường hợp nhà thầu không đồng ý với kết quả sửa lỗi, hiệu chỉnh sai lệch, áp đơn giá theo thông báo của bên mời thầu thì hồ sơ dự thầu của nhà thầu đó bị loại, trừ trường hợp việc sửa lỗi, hiệu chỉnh sai lệch, áp đơn giá của bên mời thầu không phù hợp, chính xác.\n\nNhận định:\nNhà thầu cần phản hồi bằng văn bản trong vòng 03 ngày làm việc sau khi nhận thông báo từ bên mời thầu về việc sửa lỗi và hiệu chỉnh sai lệch trong hồ sơ dự thầu.",
+        "eval_user": "Văn bản:\nSau khi sửa lỗi, hiệu chỉnh sai lệch và áp đơn giá đối với phần sai lệch thiếu theo quy định tại các khoản 1, 2, 3 và 4 Điều này, bên mời thầu phải thông báo bằng văn bản cho nhà thầu về việc sửa lỗi, hiệu chỉnh sai lệch, áp đơn giá đối với hồ sơ dự thầu của nhà thầu. Trong thời hạn 03 ngày làm việc kể từ ngày nhận được thông báo của bên mời thầu, nhà thầu phải có văn bản thông báo cho bên mời thầu về việc chấp thuận kết quả sửa lỗi, hiệu chỉnh sai lệch, áp đơn giá theo thông báo của bên mời thầu. Trường hợp nhà thầu không đồng ý với kết quả sửa lỗi, hiệu chỉnh sai lệch, áp đơn giá theo thông báo của bên mời thầu thì hồ sơ dự thầu của nhà thầu đó bị loại, trừ trường hợp việc sửa lỗi, hiệu chỉnh sai lệch, áp đơn giá của bên mời thầu không phù hợp, chính xác.\n\nNhận định:\nNhà thầu cần phản hồi bằng văn bản trong 7 ngày làm việc kể từ khi nhận thông báo từ bên mời thầu về việc sửa lỗi và hiệu chỉnh sai lệch hồ sơ dự thầu."
+      },
+      {
+        "train_id": "V2-738",
+        "eval_id": "V2-744",
+        "group": "V2",
+        "jaccard": 0.875,
+        "train_user": "Văn bản:\nCá nhân là thành viên tổ chuyên gia, tổ thẩm định bị thu hồi chứng chỉ nghiệp vụ chuyên môn về đấu thầu trong trường hợp có hành vi vi phạm bị xử lý theo quy định tại khoản 9 Điều 125 của Nghị định số 24/2024/NĐ-CP ngày 27 tháng 02 năm 2024 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà thầu.\n\nNhận định:\nNếu cá nhân là thành viên tổ thẩm định có hành vi vi phạm, chứng chỉ nghiệp vụ chuyên môn về đấu thầu sẽ bị thu hồi theo quy định tại khoản 8 Điều 125 của Nghị định số 24/2024/NĐ-CP.",
+        "eval_user": "Văn bản:\nCá nhân là thành viên tổ chuyên gia, tổ thẩm định bị thu hồi chứng chỉ nghiệp vụ chuyên môn về đấu thầu trong trường hợp có hành vi vi phạm bị xử lý theo quy định tại khoản 9 Điều 125 của Nghị định số 24/2024/NĐ-CP ngày 27 tháng 02 năm 2024 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà thầu.\n\nNhận định:\nNếu cá nhân là thành viên tổ thẩm định có hành vi vi phạm, họ sẽ bị thu hồi chứng chỉ nghiệp vụ về đấu thầu theo quy định tại khoản 8 Điều 125 của Nghị định số 24/2024/NĐ-CP."
+      },
+      {
+        "train_id": "U3-313",
+        "eval_id": "U3-561",
+        "group": "U3",
+        "jaccard": 0.8723,
+        "train_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà đầu tư thực hiện dự án đầu tư có sử dụng đất, Khoản 2 Điều 8 115/2024/NĐ-CP hiện nay quy định thế nào?",
+        "eval_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà đầu tư thực hiện dự án đầu tư có sử dụng đất, Khoản 2 Điều 10 115/2024/NĐ-CP hiện nay quy định thế nào?"
+      },
+      {
+        "train_id": "U3-462",
+        "eval_id": "U3-561",
+        "group": "U3",
+        "jaccard": 0.8723,
+        "train_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà đầu tư thực hiện dự án đầu tư có sử dụng đất, Khoản 2 Điều 3 115/2024/NĐ-CP hiện nay quy định thế nào?",
+        "eval_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà đầu tư thực hiện dự án đầu tư có sử dụng đất, Khoản 2 Điều 10 115/2024/NĐ-CP hiện nay quy định thế nào?"
+      },
+      {
+        "train_id": "U3-459",
+        "eval_id": "U3-033",
+        "group": "U3",
+        "jaccard": 0.8723,
+        "train_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà đầu tư thực hiện dự án đầu tư có sử dụng đất, Khoản 1 Điều 39 115/2024/NĐ-CP hiện nay quy định thế nào?",
+        "eval_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà đầu tư thực hiện dự án đầu tư có sử dụng đất, Khoản 1 Điều 29 115/2024/NĐ-CP hiện nay quy định thế nào?"
+      },
+      {
+        "train_id": "U3-365",
+        "eval_id": "U3-033",
+        "group": "U3",
+        "jaccard": 0.8723,
+        "train_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà đầu tư thực hiện dự án đầu tư có sử dụng đất, Khoản 1 Điều 70 115/2024/NĐ-CP hiện nay quy định thế nào?",
+        "eval_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà đầu tư thực hiện dự án đầu tư có sử dụng đất, Khoản 1 Điều 29 115/2024/NĐ-CP hiện nay quy định thế nào?"
+      },
+      {
+        "train_id": "V2-737",
+        "eval_id": "V2-743",
+        "group": "V2",
+        "jaccard": 0.8713,
+        "train_user": "Văn bản:\nCá nhân là thành viên tổ chuyên gia, tổ thẩm định bị thu hồi chứng chỉ nghiệp vụ chuyên môn về đấu thầu trong trường hợp có hành vi vi phạm bị xử lý theo quy định tại khoản 9 Điều 125 của Nghị định số 24/2024/NĐ-CP ngày 27 tháng 02 năm 2024 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà thầu.\n\nNhận định:\nNếu cá nhân là thành viên tổ thẩm định có hành vi vi phạm, chứng chỉ nghiệp vụ chuyên môn về đấu thầu sẽ bị thu hồi theo quy định tại khoản 9 Điều 125 của Nghị định số 24/2024/NĐ-CP.",
+        "eval_user": "Văn bản:\nCá nhân là thành viên tổ chuyên gia, tổ thẩm định bị thu hồi chứng chỉ nghiệp vụ chuyên môn về đấu thầu trong trường hợp có hành vi vi phạm bị xử lý theo quy định tại khoản 9 Điều 125 của Nghị định số 24/2024/NĐ-CP ngày 27 tháng 02 năm 2024 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà thầu.\n\nNhận định:\nNếu cá nhân là thành viên tổ thẩm định có hành vi vi phạm, họ sẽ bị thu hồi chứng chỉ nghiệp vụ về đấu thầu theo quy định tại khoản 9 Điều 125 của Nghị định số 24/2024/NĐ-CP."
+      },
+      {
+        "train_id": "U3-510",
+        "eval_id": "U3-208",
+        "group": "U3",
+        "jaccard": 0.8571,
+        "train_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Hướng dẫn việc cung cấp, đăng tải thông tin về đấu thầu và mẫu hồ sơ đấu thầu trên Hệ thống mạng đấu thầu quốc gia, Khoản 2 Điều 22 79/2025/TT-BTC hiện nay quy định thế nào?",
+        "eval_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Hướng dẫn việc cung cấp, đăng tải thông tin về đấu thầu và mẫu hồ sơ đấu thầu trên Hệ thống mạng đấu thầu quốc gia, Khoản 2 Điều 5 79/2025/TT-BTC hiện nay quy định thế nào?"
+      },
+      {
+        "train_id": "U3-511",
+        "eval_id": "U3-608",
+        "group": "U3",
+        "jaccard": 0.8537,
+        "train_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Sửa đổi, bổ sung một số điều của các Nghị định quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu, Khoản 31 Điều 2 17/2025/NĐ-CP hiện nay quy định thế nào?",
+        "eval_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Sửa đổi, bổ sung một số điều của các Nghị định quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu, Khoản 14 Điều 2 17/2025/NĐ-CP hiện nay quy định thế nào?"
+      },
+      {
+        "train_id": "U3-461",
+        "eval_id": "U3-608",
+        "group": "U3",
+        "jaccard": 0.8537,
+        "train_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Sửa đổi, bổ sung một số điều của các Nghị định quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu, Khoản 3 Điều 2 17/2025/NĐ-CP hiện nay quy định thế nào?",
+        "eval_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Sửa đổi, bổ sung một số điều của các Nghị định quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu, Khoản 14 Điều 2 17/2025/NĐ-CP hiện nay quy định thế nào?"
+      },
+      {
+        "train_id": "U3-260",
+        "eval_id": "U3-361",
+        "group": "U3",
+        "jaccard": 0.8507,
+        "train_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo SỬA ĐỔI, BỔ SUNG MỘT SỐ ĐIỀU CỦA LUẬT ĐẤU THẦU, LUẬT ĐẦU TƯ THEO PHƯƠNG THỨC ĐỐI TÁC CÔNG TƯ, LUẬT HẢI QUAN, LUẬT THUẾ GIÁ TRỊ GIA TĂNG, LUẬT THUẾ XUẤT KHẨU, THUẾ NHẬP KHẨU, LUẬT ĐẦU TƯ, LUẬT ĐẦU TƯ CÔNG, LUẬT QUẢN LÝ, SỬ DỤNG TÀI SẢN CÔNG, Khoản 17 Điều 6 90/2025/QH15 hiện nay quy định thế nào?",
+        "eval_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo SỬA ĐỔI, BỔ SUNG MỘT SỐ ĐIỀU CỦA LUẬT ĐẤU THẦU, LUẬT ĐẦU TƯ THEO PHƯƠNG THỨC ĐỐI TÁC CÔNG TƯ, LUẬT HẢI QUAN, LUẬT THUẾ GIÁ TRỊ GIA TĂNG, LUẬT THUẾ XUẤT KHẨU, THUẾ NHẬP KHẨU, LUẬT ĐẦU TƯ, LUẬT ĐẦU TƯ CÔNG, LUẬT QUẢN LÝ, SỬ DỤNG TÀI SẢN CÔNG, Khoản 2 Điều 3 90/2025/QH15 hiện nay quy định thế nào?"
+      },
+      {
+        "train_id": "U3-663",
+        "eval_id": "U3-361",
+        "group": "U3",
+        "jaccard": 0.8507,
+        "train_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo SỬA ĐỔI, BỔ SUNG MỘT SỐ ĐIỀU CỦA LUẬT ĐẤU THẦU, LUẬT ĐẦU TƯ THEO PHƯƠNG THỨC ĐỐI TÁC CÔNG TƯ, LUẬT HẢI QUAN, LUẬT THUẾ GIÁ TRỊ GIA TĂNG, LUẬT THUẾ XUẤT KHẨU, THUẾ NHẬP KHẨU, LUẬT ĐẦU TƯ, LUẬT ĐẦU TƯ CÔNG, LUẬT QUẢN LÝ, SỬ DỤNG TÀI SẢN CÔNG, Khoản 15 Điều 1 90/2025/QH15 hiện nay quy định thế nào?",
+        "eval_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo SỬA ĐỔI, BỔ SUNG MỘT SỐ ĐIỀU CỦA LUẬT ĐẤU THẦU, LUẬT ĐẦU TƯ THEO PHƯƠNG THỨC ĐỐI TÁC CÔNG TƯ, LUẬT HẢI QUAN, LUẬT THUẾ GIÁ TRỊ GIA TĂNG, LUẬT THUẾ XUẤT KHẨU, THUẾ NHẬP KHẨU, LUẬT ĐẦU TƯ, LUẬT ĐẦU TƯ CÔNG, LUẬT QUẢN LÝ, SỬ DỤNG TÀI SẢN CÔNG, Khoản 2 Điều 3 90/2025/QH15 hiện nay quy định thế nào?"
+      },
+      {
+        "train_id": "U3-362",
+        "eval_id": "U3-361",
+        "group": "U3",
+        "jaccard": 0.8507,
+        "train_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo SỬA ĐỔI, BỔ SUNG MỘT SỐ ĐIỀU CỦA LUẬT ĐẤU THẦU, LUẬT ĐẦU TƯ THEO PHƯƠNG THỨC ĐỐI TÁC CÔNG TƯ, LUẬT HẢI QUAN, LUẬT THUẾ GIÁ TRỊ GIA TĂNG, LUẬT THUẾ XUẤT KHẨU, THUẾ NHẬP KHẨU, LUẬT ĐẦU TƯ, LUẬT ĐẦU TƯ CÔNG, LUẬT QUẢN LÝ, SỬ DỤNG TÀI SẢN CÔNG, Khoản 9 Điều 7 90/2025/QH15 hiện nay quy định thế nào?",
+        "eval_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo SỬA ĐỔI, BỔ SUNG MỘT SỐ ĐIỀU CỦA LUẬT ĐẤU THẦU, LUẬT ĐẦU TƯ THEO PHƯƠNG THỨC ĐỐI TÁC CÔNG TƯ, LUẬT HẢI QUAN, LUẬT THUẾ GIÁ TRỊ GIA TĂNG, LUẬT THUẾ XUẤT KHẨU, THUẾ NHẬP KHẨU, LUẬT ĐẦU TƯ, LUẬT ĐẦU TƯ CÔNG, LUẬT QUẢN LÝ, SỬ DỤNG TÀI SẢN CÔNG, Khoản 2 Điều 3 90/2025/QH15 hiện nay quy định thế nào?"
+      },
+      {
+        "train_id": "U3-260",
+        "eval_id": "U3-114",
+        "group": "U3",
+        "jaccard": 0.8507,
+        "train_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo SỬA ĐỔI, BỔ SUNG MỘT SỐ ĐIỀU CỦA LUẬT ĐẤU THẦU, LUẬT ĐẦU TƯ THEO PHƯƠNG THỨC ĐỐI TÁC CÔNG TƯ, LUẬT HẢI QUAN, LUẬT THUẾ GIÁ TRỊ GIA TĂNG, LUẬT THUẾ XUẤT KHẨU, THUẾ NHẬP KHẨU, LUẬT ĐẦU TƯ, LUẬT ĐẦU TƯ CÔNG, LUẬT QUẢN LÝ, SỬ DỤNG TÀI SẢN CÔNG, Khoản 17 Điều 6 90/2025/QH15 hiện nay quy định thế nào?",
+        "eval_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo SỬA ĐỔI, BỔ SUNG MỘT SỐ ĐIỀU CỦA LUẬT ĐẤU THẦU, LUẬT ĐẦU TƯ THEO PHƯƠNG THỨC ĐỐI TÁC CÔNG TƯ, LUẬT HẢI QUAN, LUẬT THUẾ GIÁ TRỊ GIA TĂNG, LUẬT THUẾ XUẤT KHẨU, THUẾ NHẬP KHẨU, LUẬT ĐẦU TƯ, LUẬT ĐẦU TƯ CÔNG, LUẬT QUẢN LÝ, SỬ DỤNG TÀI SẢN CÔNG, Khoản 34 Điều 1 90/2025/QH15 hiện nay quy định thế nào?"
+      },
+      {
+        "train_id": "U3-414",
+        "eval_id": "U3-114",
+        "group": "U3",
+        "jaccard": 0.8507,
+        "train_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo SỬA ĐỔI, BỔ SUNG MỘT SỐ ĐIỀU CỦA LUẬT ĐẤU THẦU, LUẬT ĐẦU TƯ THEO PHƯƠNG THỨC ĐỐI TÁC CÔNG TƯ, LUẬT HẢI QUAN, LUẬT THUẾ GIÁ TRỊ GIA TĂNG, LUẬT THUẾ XUẤT KHẨU, THUẾ NHẬP KHẨU, LUẬT ĐẦU TƯ, LUẬT ĐẦU TƯ CÔNG, LUẬT QUẢN LÝ, SỬ DỤNG TÀI SẢN CÔNG, Khoản 3 Điều 3 90/2025/QH15 hiện nay quy định thế nào?",
+        "eval_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo SỬA ĐỔI, BỔ SUNG MỘT SỐ ĐIỀU CỦA LUẬT ĐẤU THẦU, LUẬT ĐẦU TƯ THEO PHƯƠNG THỨC ĐỐI TÁC CÔNG TƯ, LUẬT HẢI QUAN, LUẬT THUẾ GIÁ TRỊ GIA TĂNG, LUẬT THUẾ XUẤT KHẨU, THUẾ NHẬP KHẨU, LUẬT ĐẦU TƯ, LUẬT ĐẦU TƯ CÔNG, LUẬT QUẢN LÝ, SỬ DỤNG TÀI SẢN CÔNG, Khoản 34 Điều 1 90/2025/QH15 hiện nay quy định thế nào?"
+      },
+      {
+        "train_id": "U3-362",
+        "eval_id": "U3-114",
+        "group": "U3",
+        "jaccard": 0.8507,
+        "train_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo SỬA ĐỔI, BỔ SUNG MỘT SỐ ĐIỀU CỦA LUẬT ĐẤU THẦU, LUẬT ĐẦU TƯ THEO PHƯƠNG THỨC ĐỐI TÁC CÔNG TƯ, LUẬT HẢI QUAN, LUẬT THUẾ GIÁ TRỊ GIA TĂNG, LUẬT THUẾ XUẤT KHẨU, THUẾ NHẬP KHẨU, LUẬT ĐẦU TƯ, LUẬT ĐẦU TƯ CÔNG, LUẬT QUẢN LÝ, SỬ DỤNG TÀI SẢN CÔNG, Khoản 9 Điều 7 90/2025/QH15 hiện nay quy định thế nào?",
+        "eval_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo SỬA ĐỔI, BỔ SUNG MỘT SỐ ĐIỀU CỦA LUẬT ĐẤU THẦU, LUẬT ĐẦU TƯ THEO PHƯƠNG THỨC ĐỐI TÁC CÔNG TƯ, LUẬT HẢI QUAN, LUẬT THUẾ GIÁ TRỊ GIA TĂNG, LUẬT THUẾ XUẤT KHẨU, THUẾ NHẬP KHẨU, LUẬT ĐẦU TƯ, LUẬT ĐẦU TƯ CÔNG, LUẬT QUẢN LÝ, SỬ DỤNG TÀI SẢN CÔNG, Khoản 34 Điều 1 90/2025/QH15 hiện nay quy định thế nào?"
+      },
+      {
+        "train_id": "U3-260",
+        "eval_id": "U3-363",
+        "group": "U3",
+        "jaccard": 0.8507,
+        "train_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo SỬA ĐỔI, BỔ SUNG MỘT SỐ ĐIỀU CỦA LUẬT ĐẤU THẦU, LUẬT ĐẦU TƯ THEO PHƯƠNG THỨC ĐỐI TÁC CÔNG TƯ, LUẬT HẢI QUAN, LUẬT THUẾ GIÁ TRỊ GIA TĂNG, LUẬT THUẾ XUẤT KHẨU, THUẾ NHẬP KHẨU, LUẬT ĐẦU TƯ, LUẬT ĐẦU TƯ CÔNG, LUẬT QUẢN LÝ, SỬ DỤNG TÀI SẢN CÔNG, Khoản 17 Điều 6 90/2025/QH15 hiện nay quy định thế nào?",
+        "eval_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo SỬA ĐỔI, BỔ SUNG MỘT SỐ ĐIỀU CỦA LUẬT ĐẤU THẦU, LUẬT ĐẦU TƯ THEO PHƯƠNG THỨC ĐỐI TÁC CÔNG TƯ, LUẬT HẢI QUAN, LUẬT THUẾ GIÁ TRỊ GIA TĂNG, LUẬT THUẾ XUẤT KHẨU, THUẾ NHẬP KHẨU, LUẬT ĐẦU TƯ, LUẬT ĐẦU TƯ CÔNG, LUẬT QUẢN LÝ, SỬ DỤNG TÀI SẢN CÔNG, Khoản 24 Điều 2 90/2025/QH15 hiện nay quy định thế nào?"
+      },
+      {
+        "train_id": "U3-414",
+        "eval_id": "U3-363",
+        "group": "U3",
+        "jaccard": 0.8507,
+        "train_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo SỬA ĐỔI, BỔ SUNG MỘT SỐ ĐIỀU CỦA LUẬT ĐẤU THẦU, LUẬT ĐẦU TƯ THEO PHƯƠNG THỨC ĐỐI TÁC CÔNG TƯ, LUẬT HẢI QUAN, LUẬT THUẾ GIÁ TRỊ GIA TĂNG, LUẬT THUẾ XUẤT KHẨU, THUẾ NHẬP KHẨU, LUẬT ĐẦU TƯ, LUẬT ĐẦU TƯ CÔNG, LUẬT QUẢN LÝ, SỬ DỤNG TÀI SẢN CÔNG, Khoản 3 Điều 3 90/2025/QH15 hiện nay quy định thế nào?",
+        "eval_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo SỬA ĐỔI, BỔ SUNG MỘT SỐ ĐIỀU CỦA LUẬT ĐẤU THẦU, LUẬT ĐẦU TƯ THEO PHƯƠNG THỨC ĐỐI TÁC CÔNG TƯ, LUẬT HẢI QUAN, LUẬT THUẾ GIÁ TRỊ GIA TĂNG, LUẬT THUẾ XUẤT KHẨU, THUẾ NHẬP KHẨU, LUẬT ĐẦU TƯ, LUẬT ĐẦU TƯ CÔNG, LUẬT QUẢN LÝ, SỬ DỤNG TÀI SẢN CÔNG, Khoản 24 Điều 2 90/2025/QH15 hiện nay quy định thế nào?"
+      },
+      {
+        "train_id": "U3-663",
+        "eval_id": "U3-363",
+        "group": "U3",
+        "jaccard": 0.8507,
+        "train_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo SỬA ĐỔI, BỔ SUNG MỘT SỐ ĐIỀU CỦA LUẬT ĐẤU THẦU, LUẬT ĐẦU TƯ THEO PHƯƠNG THỨC ĐỐI TÁC CÔNG TƯ, LUẬT HẢI QUAN, LUẬT THUẾ GIÁ TRỊ GIA TĂNG, LUẬT THUẾ XUẤT KHẨU, THUẾ NHẬP KHẨU, LUẬT ĐẦU TƯ, LUẬT ĐẦU TƯ CÔNG, LUẬT QUẢN LÝ, SỬ DỤNG TÀI SẢN CÔNG, Khoản 15 Điều 1 90/2025/QH15 hiện nay quy định thế nào?",
+        "eval_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo SỬA ĐỔI, BỔ SUNG MỘT SỐ ĐIỀU CỦA LUẬT ĐẤU THẦU, LUẬT ĐẦU TƯ THEO PHƯƠNG THỨC ĐỐI TÁC CÔNG TƯ, LUẬT HẢI QUAN, LUẬT THUẾ GIÁ TRỊ GIA TĂNG, LUẬT THUẾ XUẤT KHẨU, THUẾ NHẬP KHẨU, LUẬT ĐẦU TƯ, LUẬT ĐẦU TƯ CÔNG, LUẬT QUẢN LÝ, SỬ DỤNG TÀI SẢN CÔNG, Khoản 24 Điều 2 90/2025/QH15 hiện nay quy định thế nào?"
+      },
+      {
+        "train_id": "U3-362",
+        "eval_id": "U3-363",
+        "group": "U3",
+        "jaccard": 0.8507,
+        "train_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo SỬA ĐỔI, BỔ SUNG MỘT SỐ ĐIỀU CỦA LUẬT ĐẤU THẦU, LUẬT ĐẦU TƯ THEO PHƯƠNG THỨC ĐỐI TÁC CÔNG TƯ, LUẬT HẢI QUAN, LUẬT THUẾ GIÁ TRỊ GIA TĂNG, LUẬT THUẾ XUẤT KHẨU, THUẾ NHẬP KHẨU, LUẬT ĐẦU TƯ, LUẬT ĐẦU TƯ CÔNG, LUẬT QUẢN LÝ, SỬ DỤNG TÀI SẢN CÔNG, Khoản 9 Điều 7 90/2025/QH15 hiện nay quy định thế nào?",
+        "eval_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo SỬA ĐỔI, BỔ SUNG MỘT SỐ ĐIỀU CỦA LUẬT ĐẤU THẦU, LUẬT ĐẦU TƯ THEO PHƯƠNG THỨC ĐỐI TÁC CÔNG TƯ, LUẬT HẢI QUAN, LUẬT THUẾ GIÁ TRỊ GIA TĂNG, LUẬT THUẾ XUẤT KHẨU, THUẾ NHẬP KHẨU, LUẬT ĐẦU TƯ, LUẬT ĐẦU TƯ CÔNG, LUẬT QUẢN LÝ, SỬ DỤNG TÀI SẢN CÔNG, Khoản 24 Điều 2 90/2025/QH15 hiện nay quy định thế nào?"
+      },
+      {
+        "train_id": "V2-738",
+        "eval_id": "V2-743",
+        "group": "V2",
+        "jaccard": 0.8462,
+        "train_user": "Văn bản:\nCá nhân là thành viên tổ chuyên gia, tổ thẩm định bị thu hồi chứng chỉ nghiệp vụ chuyên môn về đấu thầu trong trường hợp có hành vi vi phạm bị xử lý theo quy định tại khoản 9 Điều 125 của Nghị định số 24/2024/NĐ-CP ngày 27 tháng 02 năm 2024 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà thầu.\n\nNhận định:\nNếu cá nhân là thành viên tổ thẩm định có hành vi vi phạm, chứng chỉ nghiệp vụ chuyên môn về đấu thầu sẽ bị thu hồi theo quy định tại khoản 8 Điều 125 của Nghị định số 24/2024/NĐ-CP.",
+        "eval_user": "Văn bản:\nCá nhân là thành viên tổ chuyên gia, tổ thẩm định bị thu hồi chứng chỉ nghiệp vụ chuyên môn về đấu thầu trong trường hợp có hành vi vi phạm bị xử lý theo quy định tại khoản 9 Điều 125 của Nghị định số 24/2024/NĐ-CP ngày 27 tháng 02 năm 2024 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà thầu.\n\nNhận định:\nNếu cá nhân là thành viên tổ thẩm định có hành vi vi phạm, họ sẽ bị thu hồi chứng chỉ nghiệp vụ về đấu thầu theo quy định tại khoản 9 Điều 125 của Nghị định số 24/2024/NĐ-CP."
+      },
+      {
+        "train_id": "V2-737",
+        "eval_id": "V2-744",
+        "group": "V2",
+        "jaccard": 0.8462,
+        "train_user": "Văn bản:\nCá nhân là thành viên tổ chuyên gia, tổ thẩm định bị thu hồi chứng chỉ nghiệp vụ chuyên môn về đấu thầu trong trường hợp có hành vi vi phạm bị xử lý theo quy định tại khoản 9 Điều 125 của Nghị định số 24/2024/NĐ-CP ngày 27 tháng 02 năm 2024 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà thầu.\n\nNhận định:\nNếu cá nhân là thành viên tổ thẩm định có hành vi vi phạm, chứng chỉ nghiệp vụ chuyên môn về đấu thầu sẽ bị thu hồi theo quy định tại khoản 9 Điều 125 của Nghị định số 24/2024/NĐ-CP.",
+        "eval_user": "Văn bản:\nCá nhân là thành viên tổ chuyên gia, tổ thẩm định bị thu hồi chứng chỉ nghiệp vụ chuyên môn về đấu thầu trong trường hợp có hành vi vi phạm bị xử lý theo quy định tại khoản 9 Điều 125 của Nghị định số 24/2024/NĐ-CP ngày 27 tháng 02 năm 2024 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà thầu.\n\nNhận định:\nNếu cá nhân là thành viên tổ thẩm định có hành vi vi phạm, họ sẽ bị thu hồi chứng chỉ nghiệp vụ về đấu thầu theo quy định tại khoản 8 Điều 125 của Nghị định số 24/2024/NĐ-CP."
+      },
+      {
+        "train_id": "U3-564",
+        "eval_id": "U3-210",
+        "group": "U3",
+        "jaccard": 0.8361,
+        "train_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà đầu tư thực hiện dự án thuộc trường hợp phải tổ chức đấu thầu theo quy định của pháp luật quản lý ngành, lĩnh vực, Khoản 7 Điều 38 23/2024/NĐ-CP hiện nay quy định thế nào?",
+        "eval_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà đầu tư thực hiện dự án thuộc trường hợp phải tổ chức đấu thầu theo quy định của pháp luật quản lý ngành, lĩnh vực, Khoản 1 Điều 18 23/2024/NĐ-CP hiện nay quy định thế nào?"
+      },
+      {
+        "train_id": "U3-308",
+        "eval_id": "U3-210",
+        "group": "U3",
+        "jaccard": 0.8361,
+        "train_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà đầu tư thực hiện dự án thuộc trường hợp phải tổ chức đấu thầu theo quy định của pháp luật quản lý ngành, lĩnh vực, Khoản 7 Điều 57 23/2024/NĐ-CP hiện nay quy định thế nào?",
+        "eval_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà đầu tư thực hiện dự án thuộc trường hợp phải tổ chức đấu thầu theo quy định của pháp luật quản lý ngành, lĩnh vực, Khoản 1 Điều 18 23/2024/NĐ-CP hiện nay quy định thế nào?"
+      },
+      {
+        "train_id": "U3-031",
+        "eval_id": "U3-614",
+        "group": "U3",
+        "jaccard": 0.8361,
+        "train_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà đầu tư thực hiện dự án thuộc trường hợp phải tổ chức đấu thầu theo quy định của pháp luật quản lý ngành, lĩnh vực, Khoản 1 Điều 25 23/2024/NĐ-CP hiện nay quy định thế nào?",
+        "eval_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà đầu tư thực hiện dự án thuộc trường hợp phải tổ chức đấu thầu theo quy định của pháp luật quản lý ngành, lĩnh vực, Khoản 6 Điều 29 23/2024/NĐ-CP hiện nay quy định thế nào?"
+      },
+      {
+        "train_id": "U3-564",
+        "eval_id": "U3-614",
+        "group": "U3",
+        "jaccard": 0.8361,
+        "train_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà đầu tư thực hiện dự án thuộc trường hợp phải tổ chức đấu thầu theo quy định của pháp luật quản lý ngành, lĩnh vực, Khoản 7 Điều 38 23/2024/NĐ-CP hiện nay quy định thế nào?",
+        "eval_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà đầu tư thực hiện dự án thuộc trường hợp phải tổ chức đấu thầu theo quy định của pháp luật quản lý ngành, lĩnh vực, Khoản 6 Điều 29 23/2024/NĐ-CP hiện nay quy định thế nào?"
+      },
+      {
+        "train_id": "U3-762",
+        "eval_id": "U3-614",
+        "group": "U3",
+        "jaccard": 0.8361,
+        "train_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà đầu tư thực hiện dự án thuộc trường hợp phải tổ chức đấu thầu theo quy định của pháp luật quản lý ngành, lĩnh vực, Khoản 4 Điều 18 23/2024/NĐ-CP hiện nay quy định thế nào?",
+        "eval_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà đầu tư thực hiện dự án thuộc trường hợp phải tổ chức đấu thầu theo quy định của pháp luật quản lý ngành, lĩnh vực, Khoản 6 Điều 29 23/2024/NĐ-CP hiện nay quy định thế nào?"
+      },
+      {
+        "train_id": "U3-308",
+        "eval_id": "U3-614",
+        "group": "U3",
+        "jaccard": 0.8361,
+        "train_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà đầu tư thực hiện dự án thuộc trường hợp phải tổ chức đấu thầu theo quy định của pháp luật quản lý ngành, lĩnh vực, Khoản 7 Điều 57 23/2024/NĐ-CP hiện nay quy định thế nào?",
+        "eval_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà đầu tư thực hiện dự án thuộc trường hợp phải tổ chức đấu thầu theo quy định của pháp luật quản lý ngành, lĩnh vực, Khoản 6 Điều 29 23/2024/NĐ-CP hiện nay quy định thế nào?"
+      },
+      {
+        "train_id": "U3-163",
+        "eval_id": "U3-111",
+        "group": "U3",
+        "jaccard": 0.8333,
+        "train_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà thầu, Khoản 5 Điều 75 214/2025/NĐ-CP hiện nay quy định thế nào?",
+        "eval_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà thầu, Khoản 5 Điều 133 214/2025/NĐ-CP hiện nay quy định thế nào?"
+      },
+      {
+        "train_id": "U3-409",
+        "eval_id": "U3-659",
+        "group": "U3",
+        "jaccard": 0.8333,
+        "train_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà thầu, Khoản 7 Điều 24 24/2024/NĐ-CP hiện nay quy định thế nào?",
+        "eval_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà thầu, Khoản 7 Điều 43 24/2024/NĐ-CP hiện nay quy định thế nào?"
+      },
+      {
+        "train_id": "U3-613",
+        "eval_id": "U3-711",
+        "group": "U3",
+        "jaccard": 0.8333,
+        "train_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà thầu, Khoản 1 Điều 16 214/2025/NĐ-CP hiện nay quy định thế nào?",
+        "eval_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà thầu, Khoản 1 Điều 77 214/2025/NĐ-CP hiện nay quy định thế nào?"
+      },
+      {
+        "train_id": "U3-163",
+        "eval_id": "U3-364",
+        "group": "U3",
+        "jaccard": 0.8333,
+        "train_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà thầu, Khoản 5 Điều 75 214/2025/NĐ-CP hiện nay quy định thế nào?",
+        "eval_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà thầu, Khoản 5 Điều 145 214/2025/NĐ-CP hiện nay quy định thế nào?"
+      },
+      {
+        "train_id": "U3-465",
+        "eval_id": "U3-463",
+        "group": "U3",
+        "jaccard": 0.8333,
+        "train_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà thầu, Khoản 1 Điều 112 24/2024/NĐ-CP hiện nay quy định thế nào?",
+        "eval_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà thầu, Khoản 3 Điều 112 24/2024/NĐ-CP hiện nay quy định thế nào?"
+      },
+      {
+        "train_id": "U3-664",
+        "eval_id": "U3-463",
+        "group": "U3",
+        "jaccard": 0.8333,
+        "train_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà thầu, Khoản 3 Điều 35 24/2024/NĐ-CP hiện nay quy định thế nào?",
+        "eval_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà thầu, Khoản 3 Điều 112 24/2024/NĐ-CP hiện nay quy định thế nào?"
+      },
+      {
+        "train_id": "U3-310",
+        "eval_id": "U3-463",
+        "group": "U3",
+        "jaccard": 0.8333,
+        "train_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà thầu, Khoản 3 Điều 134 24/2024/NĐ-CP hiện nay quy định thế nào?",
+        "eval_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà thầu, Khoản 3 Điều 112 24/2024/NĐ-CP hiện nay quy định thế nào?"
+      },
+      {
+        "train_id": "U3-760",
+        "eval_id": "U3-463",
+        "group": "U3",
+        "jaccard": 0.8333,
+        "train_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà thầu, Khoản 3 Điều 64 24/2024/NĐ-CP hiện nay quy định thế nào?",
+        "eval_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà thầu, Khoản 3 Điều 112 24/2024/NĐ-CP hiện nay quy định thế nào?"
+      },
+      {
+        "train_id": "U3-212",
+        "eval_id": "U3-214",
+        "group": "U3",
+        "jaccard": 0.8333,
+        "train_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà thầu, Khoản 2 Điều 2 214/2025/NĐ-CP hiện nay quy định thế nào?",
+        "eval_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà thầu, Khoản 2 Điều 93 214/2025/NĐ-CP hiện nay quy định thế nào?"
+      },
+      {
+        "train_id": "U3-029",
+        "eval_id": "U3-214",
+        "group": "U3",
+        "jaccard": 0.8333,
+        "train_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà thầu, Khoản 2 Điều 87 214/2025/NĐ-CP hiện nay quy định thế nào?",
+        "eval_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà thầu, Khoản 2 Điều 93 214/2025/NĐ-CP hiện nay quy định thế nào?"
+      },
+      {
+        "train_id": "U3-509",
+        "eval_id": "U3-759",
+        "group": "U3",
+        "jaccard": 0.8333,
+        "train_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà thầu, Khoản 7 Điều 138 214/2025/NĐ-CP hiện nay quy định thế nào?",
+        "eval_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà thầu, Khoản 7 Điều 78 214/2025/NĐ-CP hiện nay quy định thế nào?"
+      },
+      {
+        "train_id": "U3-664",
+        "eval_id": "U3-078",
+        "group": "U3",
+        "jaccard": 0.8333,
+        "train_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà thầu, Khoản 3 Điều 35 24/2024/NĐ-CP hiện nay quy định thế nào?",
+        "eval_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà thầu, Khoản 3 Điều 47 24/2024/NĐ-CP hiện nay quy định thế nào?"
+      },
+      {
+        "train_id": "U3-310",
+        "eval_id": "U3-078",
+        "group": "U3",
+        "jaccard": 0.8333,
+        "train_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà thầu, Khoản 3 Điều 134 24/2024/NĐ-CP hiện nay quy định thế nào?",
+        "eval_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà thầu, Khoản 3 Điều 47 24/2024/NĐ-CP hiện nay quy định thế nào?"
+      },
+      {
+        "train_id": "U3-760",
+        "eval_id": "U3-078",
+        "group": "U3",
+        "jaccard": 0.8333,
+        "train_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà thầu, Khoản 3 Điều 64 24/2024/NĐ-CP hiện nay quy định thế nào?",
+        "eval_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà thầu, Khoản 3 Điều 47 24/2024/NĐ-CP hiện nay quy định thế nào?"
+      },
+      {
+        "train_id": "U3-508",
+        "eval_id": "U3-412",
+        "group": "U3",
+        "jaccard": 0.8333,
+        "train_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà thầu, Khoản 5 Điều 126 24/2024/NĐ-CP hiện nay quy định thế nào?",
+        "eval_user": "Earlier turns:\n(none)\n\nCurrent turn:\nTheo Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà thầu, Khoản 5 Điều 27 24/2024/NĐ-CP hiện nay quy định thế nào?"
+      },
+      {
+        "train_id": "V3-651",
+        "eval_id": "V3-719",
+        "group": "V3",
+        "jaccard": 0.8182,
+        "train_user": "Đầu tư nước ngoài ảnh hưởng thế nào đến kinh tế xã hội?",
+        "eval_user": "Đầu tư nước ngoài ảnh hưởng thế nào đến kinh tế?"
+      },
+      {
+        "train_id": "V2-220",
+        "eval_id": "V2-648",
+        "group": "V2",
+        "jaccard": 0.811,
+        "train_user": "Văn bản:\nThông tin chủ yếu của hợp đồng gồm: số hiệu hợp đồng, chủ thể hợp đồng, giá hợp đồng, loại hợp đồng, thời gian thực hiện gói thầu theo quy định tại khoản 7 Điều 39 của Luật Đấu thầu, thời gian thực hiện hợp đồng (là số ngày tính từ ngày hợp đồng có hiệu lực đến ngày các bên hoàn thành nghĩa vụ theo quy định trong hợp đồng), thời điểm hợp đồng bắt đầu có hiệu lực, danh sách nhà thầu phụ (nếu có), phạm vi công việc của hợp đồng, các thông tin khác (nếu có).\n\nNhận định:\nHợp đồng cần ghi rõ số hiệu, chủ thể, giá và loại hợp đồng, cũng như thời gian thực hiện gói thầu theo quy định tại khoản 7 Điều 40 của Luật Đấu thầu.",
+        "eval_user": "Văn bản:\nThông tin chủ yếu của hợp đồng gồm: số hiệu hợp đồng, chủ thể hợp đồng, giá hợp đồng, loại hợp đồng, thời gian thực hiện gói thầu theo quy định tại khoản 7 Điều 39 của Luật Đấu thầu, thời gian thực hiện hợp đồng (được tính từ ngày hợp đồng có hiệu lực đến ngày các bên hoàn thành nghĩa vụ theo quy định trong hợp đồng), thời điểm hợp đồng bắt đầu có hiệu lực, danh sách nhà thầu phụ (nếu có), phạm vi công việc của hợp đồng, các thông tin khác (nếu có).\n\nNhận định:\nHợp đồng cần có số hiệu, chủ thể, giá và loại hợp đồng, cùng thời gian thực hiện gói thầu theo khoản 7 Điều 40 của Luật Đấu thầu."
+      },
+      {
+        "train_id": "V2-219",
+        "eval_id": "V2-647",
+        "group": "V2",
+        "jaccard": 0.8065,
+        "train_user": "Văn bản:\nThông tin chủ yếu của hợp đồng gồm: số hiệu hợp đồng, chủ thể hợp đồng, giá hợp đồng, loại hợp đồng, thời gian thực hiện gói thầu theo quy định tại khoản 7 Điều 39 của Luật Đấu thầu, thời gian thực hiện hợp đồng (là số ngày tính từ ngày hợp đồng có hiệu lực đến ngày các bên hoàn thành nghĩa vụ theo quy định trong hợp đồng), thời điểm hợp đồng bắt đầu có hiệu lực, danh sách nhà thầu phụ (nếu có), phạm vi công việc của hợp đồng, các thông tin khác (nếu có).\n\nNhận định:\nHợp đồng cần ghi rõ số hiệu, chủ thể, giá và loại hợp đồng, cũng như thời gian thực hiện gói thầu theo quy định tại khoản 7 Điều 39 của Luật Đấu thầu.",
+        "eval_user": "Văn bản:\nThông tin chủ yếu của hợp đồng gồm: số hiệu hợp đồng, chủ thể hợp đồng, giá hợp đồng, loại hợp đồng, thời gian thực hiện gói thầu theo quy định tại khoản 7 Điều 39 của Luật Đấu thầu, thời gian thực hiện hợp đồng (được tính từ ngày hợp đồng có hiệu lực đến ngày các bên hoàn thành nghĩa vụ theo quy định trong hợp đồng), thời điểm hợp đồng bắt đầu có hiệu lực, danh sách nhà thầu phụ (nếu có), phạm vi công việc của hợp đồng, các thông tin khác (nếu có).\n\nNhận định:\nHợp đồng cần có số hiệu, chủ thể, giá và loại hợp đồng, cùng thời gian thực hiện gói thầu theo khoản 7 Điều 39 của Luật Đấu thầu."
+      }
+    ]
+  }
+}

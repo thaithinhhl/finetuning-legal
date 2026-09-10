@@ -1,0 +1,67 @@
+{
+  "total": 599,
+  "exact_match_accuracy": 0.8213689482470785,
+  "unparsed": 0,
+  "confusion_gold_to_pred": {
+    "Đúng": {
+      "Đúng": 267,
+      "Sai": 27
+    },
+    "Sai": {
+      "Đúng": 80,
+      "Sai": 225
+    }
+  },
+  "sample_examples": [
+    {
+      "raw": "Đúng",
+      "pred": "Đúng",
+      "gold": "Đúng"
+    },
+    {
+      "raw": "Sai",
+      "pred": "Sai",
+      "gold": "Sai"
+    },
+    {
+      "raw": "Sai",
+      "pred": "Sai",
+      "gold": "Sai"
+    },
+    {
+      "raw": "Đúng",
+      "pred": "Đúng",
+      "gold": "Đúng"
+    },
+    {
+      "raw": "Đúng",
+      "pred": "Đúng",
+      "gold": "Đúng"
+    },
+    {
+      "raw": "Đúng",
+      "pred": "Đúng",
+      "gold": "Đúng"
+    },
+    {
+      "raw": "Đúng",
+      "pred": "Đúng",
+      "gold": "Đúng"
+    },
+    {
+      "raw": "Sai",
+      "pred": "Sai",
+      "gold": "Sai"
+    },
+    {
+      "raw": "Đúng",
+      "pred": "Đúng",
+      "gold": "Đúng"
+    },
+    {
+      "raw": "Sai",
+      "pred": "Sai",
+      "gold": "Sai"
+    }
+  ]
+}

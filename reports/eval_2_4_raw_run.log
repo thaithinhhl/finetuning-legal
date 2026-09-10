@@ -1,0 +1,47 @@
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:02,  1.44it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.49it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:02<00:00,  1.48it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.53it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.51it/s]
+/home/ubuntu/finetuning-legal/.venv/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:631: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.7` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/ubuntu/finetuning-legal/.venv/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:636: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/home/ubuntu/finetuning-legal/.venv/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:653: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+  progress 16/599
+  progress 32/599
+  progress 48/599
+  progress 64/599
+  progress 80/599
+  progress 96/599
+  progress 112/599
+  progress 128/599
+  progress 144/599
+  progress 160/599
+  progress 176/599
+  progress 192/599
+  progress 208/599
+  progress 224/599
+  progress 240/599
+  progress 256/599
+  progress 272/599
+  progress 288/599
+  progress 304/599
+  progress 320/599
+  progress 336/599
+  progress 352/599
+  progress 368/599
+  progress 384/599
+  progress 400/599
+  progress 416/599
+  progress 432/599
+  progress 448/599
+  progress 464/599
+  progress 480/599
+  progress 496/599
+  progress 512/599
+  progress 528/599
+  progress 544/599
+  progress 560/599
+  progress 576/599
+  progress 592/599
+  progress 599/599
+EVAL_2_4_RAW_DONE {"total": 599, "exact_match_accuracy": 0.8213689482470785, "unparsed": 0, "confusion_gold_to_pred": {"Đúng": {"Đúng": 267, "Sai": 27}, "Sai": {"Đúng": 80, "Sai": 225}}}

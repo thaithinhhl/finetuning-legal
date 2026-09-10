@@ -1,0 +1,181 @@
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:01,  1.51it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.59it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:01<00:00,  1.56it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.63it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.60it/s]
+=== task 1_2 (legal topic (MCQ, 1 correct)): 683 examples ===
+/home/ubuntu/finetuning-legal/.venv/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:631: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.7` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/ubuntu/finetuning-legal/.venv/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:636: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/home/ubuntu/finetuning-legal/.venv/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:653: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+  progress 16/683
+  progress 32/683
+  progress 48/683
+  progress 64/683
+  progress 80/683
+  progress 96/683
+  progress 112/683
+  progress 128/683
+  progress 144/683
+  progress 160/683
+  progress 176/683
+  progress 192/683
+  progress 208/683
+  progress 224/683
+  progress 240/683
+  progress 256/683
+  progress 272/683
+  progress 288/683
+  progress 304/683
+  progress 320/683
+  progress 336/683
+  progress 352/683
+  progress 368/683
+  progress 384/683
+  progress 400/683
+  progress 416/683
+  progress 432/683
+  progress 448/683
+  progress 464/683
+  progress 480/683
+  progress 496/683
+  progress 512/683
+  progress 528/683
+  progress 544/683
+  progress 560/683
+  progress 576/683
+  progress 592/683
+  progress 608/683
+  progress 624/683
+  progress 640/683
+  progress 656/683
+  progress 672/683
+  progress 683/683
+  result: {'accuracy': 0.7994143484626647, 'correct': 546, 'unparsed': 5, 'total': 683}
+=== task 2_4 (judgment verification (Đúng/Sai)): 599 examples ===
+  progress 16/599
+  progress 32/599
+  progress 48/599
+  progress 64/599
+  progress 80/599
+  progress 96/599
+  progress 112/599
+  progress 128/599
+  progress 144/599
+  progress 160/599
+  progress 176/599
+  progress 192/599
+  progress 208/599
+  progress 224/599
+  progress 240/599
+  progress 256/599
+  progress 272/599
+  progress 288/599
+  progress 304/599
+  progress 320/599
+  progress 336/599
+  progress 352/599
+  progress 368/599
+  progress 384/599
+  progress 400/599
+  progress 416/599
+  progress 432/599
+  progress 448/599
+  progress 464/599
+  progress 480/599
+  progress 496/599
+  progress 512/599
+  progress 528/599
+  progress 544/599
+  progress 560/599
+  progress 576/599
+  progress 592/599
+  progress 599/599
+  result: {'accuracy': 0.8280467445742905, 'correct': 496, 'unparsed': 0, 'confusion_gold_to_pred': {'Đúng': {'Đúng': 274, 'Sai': 20}, 'Sai': {'Đúng': 83, 'Sai': 222}}, 'total': 599}
+=== task 2_5 (intent (MCQ, 1+ correct)): 1359 examples ===
+  progress 16/1359
+  progress 32/1359
+  progress 48/1359
+  progress 64/1359
+  progress 80/1359
+  progress 96/1359
+  progress 112/1359
+  progress 128/1359
+  progress 144/1359
+  progress 160/1359
+  progress 176/1359
+  progress 192/1359
+  progress 208/1359
+  progress 224/1359
+  progress 240/1359
+  progress 256/1359
+  progress 272/1359
+  progress 288/1359
+  progress 304/1359
+  progress 320/1359
+  progress 336/1359
+  progress 352/1359
+  progress 368/1359
+  progress 384/1359
+  progress 400/1359
+  progress 416/1359
+  progress 432/1359
+  progress 448/1359
+  progress 464/1359
+  progress 480/1359
+  progress 496/1359
+  progress 512/1359
+  progress 528/1359
+  progress 544/1359
+  progress 560/1359
+  progress 576/1359
+  progress 592/1359
+  progress 608/1359
+  progress 624/1359
+  progress 640/1359
+  progress 656/1359
+  progress 672/1359
+  progress 688/1359
+  progress 704/1359
+  progress 720/1359
+  progress 736/1359
+  progress 752/1359
+  progress 768/1359
+  progress 784/1359
+  progress 800/1359
+  progress 816/1359
+  progress 832/1359
+  progress 848/1359
+  progress 864/1359
+  progress 880/1359
+  progress 896/1359
+  progress 912/1359
+  progress 928/1359
+  progress 944/1359
+  progress 960/1359
+  progress 976/1359
+  progress 992/1359
+  progress 1008/1359
+  progress 1024/1359
+  progress 1040/1359
+  progress 1056/1359
+  progress 1072/1359
+  progress 1088/1359
+  progress 1104/1359
+  progress 1120/1359
+  progress 1136/1359
+  progress 1152/1359
+  progress 1168/1359
+  progress 1184/1359
+  progress 1200/1359
+  progress 1216/1359
+  progress 1232/1359
+  progress 1248/1359
+  progress 1264/1359
+  progress 1280/1359
+  progress 1296/1359
+  progress 1312/1359
+  progress 1328/1359
+  progress 1344/1359
+  progress 1359/1359
+  result: {'macro_f1': 0.4896625, 'micro_f1': 0.6174496644295302, 'micro_precision': 0.6721958925750395, 'micro_recall': 0.5709493458570949, 'exact_match_accuracy': 0.12582781456953643, 'per_category_f1': {'chitchat': 0.4176, 'comparative_analysis': 0.5903, 'document_relationship': 0.4298, 'document_retrieval': 0.5622, 'external_analysis': 0.2061, 'general': 0.4622, 'legal_query': 0.8161, 'stats_summary': 0.433}, 'total': 1359}
+EVAL_DONE -> reports/benchmark_eval_base.json

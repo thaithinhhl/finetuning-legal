@@ -1,0 +1,29 @@
+{
+  "model": {
+    "base_model": "/home/ubuntu/finetuning-legal/.cache/models/Qwen2.5-7B-Instruct",
+    "adapter": "/home/ubuntu/finetuning-legal/outputs/qwen2.5-7b-legal-bf16-lora/best_adapter",
+    "prompt_style": "improved"
+  },
+  "1_2": {
+    "accuracy": 0.828696925329429,
+    "correct": 566,
+    "unparsed": 15,
+    "total": 683
+  },
+  "2_4": {
+    "accuracy": 0.7979966611018364,
+    "correct": 478,
+    "unparsed": 0,
+    "confusion_gold_to_pred": {
+      "Đúng": {
+        "Đúng": 203,
+        "Sai": 91
+      },
+      "Sai": {
+        "Đúng": 30,
+        "Sai": 275
+      }
+    },
+    "total": 599
+  }
+}

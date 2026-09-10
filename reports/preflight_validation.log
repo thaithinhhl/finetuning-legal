@@ -1,0 +1,8 @@
+Exact prompt overlap train<->validation: 0
+Exact prompt overlap train<->test: 0
+Exact prompt overlap validation<->test: 0
+Dataset schema=messages; examples before={'train': 3500, 'validation': 700, 'test': 1260}; after={'train': 3500, 'validation': 700, 'test': 1260}
+train: n=3500, tokens(mean/max)=638.7/1396, answer_tokens(mean/min)=49.8/8
+validation: n=700, tokens(mean/max)=641.5/1396, answer_tokens(mean/min)=50.8/8
+test: n=1260, tokens(mean/max)=639.4/1396, answer_tokens(mean/min)=50.2/8
+Review flags (not automatically removed): 16; IDs=['U2-035', 'U2-018', 'U2-001', 'U2-036', 'U2-019', 'U2-060', 'U2-015', 'U2-064', 'U2-052', 'U2-048', 'U2-058', 'U2-002', 'U2-007', 'U2-012', 'U2-005', 'U2-065']

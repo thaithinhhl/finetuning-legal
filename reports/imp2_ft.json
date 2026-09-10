@@ -1,0 +1,23 @@
+{
+  "model": {
+    "base_model": "/home/ubuntu/finetuning-legal/.cache/models/Qwen2.5-7B-Instruct",
+    "adapter": "/home/ubuntu/finetuning-legal/outputs/qwen2.5-7b-legal-bf16-lora/best_adapter",
+    "prompt_style": "improved"
+  },
+  "2_4": {
+    "accuracy": 0.8163606010016694,
+    "correct": 489,
+    "unparsed": 0,
+    "confusion_gold_to_pred": {
+      "Đúng": {
+        "Đúng": 220,
+        "Sai": 74
+      },
+      "Sai": {
+        "Đúng": 36,
+        "Sai": 269
+      }
+    },
+    "total": 599
+  }
+}

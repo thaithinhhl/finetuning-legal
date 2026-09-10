@@ -1,0 +1,2441 @@
+{
+  "parse_errors": [],
+  "files": {
+    "full_review": {
+      "rows": 5460,
+      "duplicate_ids": 0,
+      "groups": {
+        "U1": 780,
+        "U2": 780,
+        "V2": 780,
+        "V1": 780,
+        "V3": 780,
+        "C1": 780,
+        "U3": 780
+      },
+      "difficulty": {
+        "hard": 1397,
+        "medium": 2700,
+        "easy": 1363
+      },
+      "slices": {
+        "clean": 532,
+        "concept_vs_context": 60,
+        "pool_b": 308,
+        "canonical": 310,
+        "cross_topic": 150,
+        "multi_label": 164,
+        "boundary:definition_vs_rule_detail": 30,
+        "single_topic": 630,
+        "pool_a": 472,
+        "single_turn": 194,
+        "multi_scope": 123,
+        "external_analysis": 69,
+        "continuation": 79,
+        "topic_switch": 75,
+        "general": 90,
+        "null_discipline": 87,
+        "document_relationship": 69,
+        "comparative_analysis": 69,
+        "paraphrase": 144,
+        "legal_query": 92,
+        "document_vs_concept": 40,
+        "anaphora": 225,
+        "synonym": 92,
+        "user_facts": 150,
+        "single_scope": 189,
+        "boundary:ambiguous_vs_terse_answerable": 30,
+        "empty_state": 243,
+        "boundary:rule_detail_vs_applicability": 48,
+        "stats_summary": 89,
+        "boundary:provision_locate_vs_content": 46,
+        "chitchat": 69,
+        "boundary:locate_vs_document_relation": 32,
+        "subject_vs_concept": 45,
+        "document_retrieval": 69,
+        "asserts_premise": 75,
+        "boundary:document_relation_vs_validity": 32,
+        "multiple_concepts": 60,
+        "boundary:out_of_scope_notlaw_vs_othercorpus": 30,
+        "no_concept": 29,
+        "title_only": 60,
+        "document_copy": 60
+      }
+    },
+    "internal_test": {
+      "rows": 1260,
+      "duplicate_ids": 0,
+      "groups": {
+        "U1": 180,
+        "V1": 180,
+        "U3": 180,
+        "V3": 180,
+        "U2": 180,
+        "C1": 180,
+        "V2": 180
+      },
+      "difficulty": {
+        "medium": 637,
+        "hard": 311,
+        "easy": 312
+      },
+      "slices": {
+        "clean": 124,
+        "single_topic": 143,
+        "single_scope": 45,
+        "legal_query": 23,
+        "multiple_concepts": 11,
+        "chitchat": 23,
+        "multi_scope": 25,
+        "document_copy": 10,
+        "pool_b": 68,
+        "document_retrieval": 18,
+        "pool_a": 112,
+        "canonical": 70,
+        "external_analysis": 21,
+        "anaphora": 62,
+        "boundary:definition_vs_rule_detail": 8,
+        "multi_label": 40,
+        "user_facts": 31,
+        "topic_switch": 19,
+        "boundary:rule_detail_vs_applicability": 13,
+        "synonym": 23,
+        "concept_vs_context": 12,
+        "single_turn": 41,
+        "asserts_premise": 17,
+        "document_relationship": 15,
+        "stats_summary": 20,
+        "boundary:provision_locate_vs_content": 8,
+        "continuation": 18,
+        "paraphrase": 36,
+        "null_discipline": 18,
+        "empty_state": 62,
+        "document_vs_concept": 11,
+        "boundary:locate_vs_document_relation": 9,
+        "cross_topic": 37,
+        "boundary:document_relation_vs_validity": 6,
+        "no_concept": 6,
+        "title_only": 12,
+        "subject_vs_concept": 11,
+        "boundary:ambiguous_vs_terse_answerable": 5,
+        "boundary:out_of_scope_notlaw_vs_othercorpus": 7,
+        "general": 15,
+        "comparative_analysis": 5
+      },
+      "labels": {
+        "intent": {
+          "provision_content": 81,
+          "definition": 49,
+          "rule_detail": 381,
+          "provision_locate": 41,
+          "applicability": 55,
+          "ambiguous": 8,
+          "out_of_scope": 60,
+          "document_relation": 23,
+          "validity": 22
+        },
+        "topic": {
+          "Thể thao - y tế": 1,
+          "Thương mại": 15,
+          "Công nghệ thông tin": 10,
+          "Thủ tục tố tụng": 4,
+          "Tiền tệ ngân hàng": 6,
+          "Bộ máy hành chính": 8,
+          "Văn hóa - xã hội": 5,
+          "Đầu tư": 7,
+          "Quyền dân sự": 7,
+          "Thuế - phí - lệ phí": 11,
+          "Tài chính nhà nước": 4,
+          "Xuất nhập khẩu": 3,
+          "Bảo hiểm": 3,
+          "Sở hữu trí tuệ": 4,
+          "Vi phạm hành chính": 16,
+          "Lĩnh vực khác": 6,
+          "Lao động - tiền lương": 7,
+          "Bất động sản": 9,
+          "Giao thông vận tải": 9,
+          "Doanh nghiệp": 10,
+          "Trách nhiệm hình sự": 6,
+          "Giáo dục": 9,
+          "Kế toán - kiểm toán": 4,
+          "Dịch vụ pháp lý": 4,
+          "Xây dựng - đô thị": 4,
+          "Chứng khoán": 4,
+          "Tài nguyên - môi trường": 4
+        },
+        "intents": {
+          "[\"legal_query\"]": 23,
+          "[\"chitchat\"]": 23,
+          "[\"document_retrieval\"]": 18,
+          "[\"external_analysis\"]": 22,
+          "[\"comparative_analysis\",\"external_analysis\"]": 9,
+          "[\"document_relationship\"]": 15,
+          "[\"stats_summary\"]": 20,
+          "[\"document_relationship\",\"stats_summary\"]": 8,
+          "[\"comparative_analysis\",\"legal_query\"]": 6,
+          "[\"document_relationship\",\"legal_query\"]": 9,
+          "[\"document_retrieval\",\"stats_summary\"]": 3,
+          "[\"general\"]": 15,
+          "[\"legal_query\",\"stats_summary\"]": 4,
+          "[\"comparative_analysis\"]": 5
+        },
+        "verdict": {
+          "Sai": 90,
+          "Đúng": 90
+        }
+      },
+      "role_patterns": {
+        "system,user,assistant": 1260
+      },
+      "system_prompts": 4,
+      "output_keys": {
+        "U1": {
+          "asks_for_definition,asserts_premise,concepts,intent,question,scope,user_facts": 180
+        },
+        "V1": {
+          "topic": 180
+        },
+        "U3": {
+          "asks_for_definition,asserts_premise,concepts,intent,question,scope,user_facts": 180
+        },
+        "V3": {
+          "intents": 180
+        },
+        "U2": {
+          "asks_for_definition,asserts_premise,concepts,intent,question,scope,user_facts": 180
+        },
+        "C1": {
+          "asks_for_definition,asserts_premise,concepts,intent,question,scope,user_facts": 180
+        },
+        "V2": {
+          "verdict": 180
+        }
+      },
+      "duplicate_messages": 0,
+      "duplicate_prompts": 0
+    },
+    "full": {
+      "rows": 5460,
+      "duplicate_ids": 0,
+      "groups": {
+        "U1": 780,
+        "U2": 780,
+        "V2": 780,
+        "V1": 780,
+        "V3": 780,
+        "C1": 780,
+        "U3": 780
+      },
+      "difficulty": {
+        "hard": 1397,
+        "medium": 2700,
+        "easy": 1363
+      },
+      "slices": {
+        "clean": 532,
+        "concept_vs_context": 60,
+        "pool_b": 308,
+        "canonical": 310,
+        "cross_topic": 150,
+        "multi_label": 164,
+        "boundary:definition_vs_rule_detail": 30,
+        "single_topic": 630,
+        "pool_a": 472,
+        "single_turn": 194,
+        "multi_scope": 123,
+        "external_analysis": 69,
+        "continuation": 79,
+        "topic_switch": 75,
+        "general": 90,
+        "null_discipline": 87,
+        "document_relationship": 69,
+        "comparative_analysis": 69,
+        "paraphrase": 144,
+        "legal_query": 92,
+        "document_vs_concept": 40,
+        "anaphora": 225,
+        "synonym": 92,
+        "user_facts": 150,
+        "single_scope": 189,
+        "boundary:ambiguous_vs_terse_answerable": 30,
+        "empty_state": 243,
+        "boundary:rule_detail_vs_applicability": 48,
+        "stats_summary": 89,
+        "boundary:provision_locate_vs_content": 46,
+        "chitchat": 69,
+        "boundary:locate_vs_document_relation": 32,
+        "subject_vs_concept": 45,
+        "document_retrieval": 69,
+        "asserts_premise": 75,
+        "boundary:document_relation_vs_validity": 32,
+        "multiple_concepts": 60,
+        "boundary:out_of_scope_notlaw_vs_othercorpus": 30,
+        "no_concept": 29,
+        "title_only": 60,
+        "document_copy": 60
+      },
+      "labels": {
+        "intent": {
+          "out_of_scope": 263,
+          "rule_detail": 1540,
+          "document_relation": 99,
+          "ambiguous": 42,
+          "provision_content": 391,
+          "definition": 260,
+          "provision_locate": 215,
+          "applicability": 218,
+          "validity": 92
+        },
+        "verdict": {
+          "Đúng": 390,
+          "Sai": 390
+        },
+        "topic": {
+          "Lao động - tiền lương": 46,
+          "Giáo dục": 31,
+          "Thương mại": 46,
+          "Giao thông vận tải": 46,
+          "Công nghệ thông tin": 31,
+          "Tài chính nhà nước": 16,
+          "Tiền tệ ngân hàng": 16,
+          "Doanh nghiệp": 47,
+          "Thuế - phí - lệ phí": 46,
+          "Bộ máy hành chính": 31,
+          "Kế toán - kiểm toán": 16,
+          "Xuất nhập khẩu": 16,
+          "Bảo hiểm": 31,
+          "Bất động sản": 61,
+          "Dịch vụ pháp lý": 16,
+          "Chứng khoán": 16,
+          "Xây dựng - đô thị": 16,
+          "Trách nhiệm hình sự": 31,
+          "Đầu tư": 31,
+          "Văn hóa - xã hội": 16,
+          "Quyền dân sự": 32,
+          "Lĩnh vực khác": 31,
+          "Thể thao - y tế": 16,
+          "Vi phạm hành chính": 47,
+          "Sở hữu trí tuệ": 16,
+          "Thủ tục tố tụng": 16,
+          "Tài nguyên - môi trường": 16
+        },
+        "intents": {
+          "[\"document_relationship\",\"legal_query\"]": 24,
+          "[\"document_relationship\",\"stats_summary\"]": 21,
+          "[\"external_analysis\"]": 72,
+          "[\"general\"]": 90,
+          "[\"document_relationship\"]": 71,
+          "[\"comparative_analysis\"]": 69,
+          "[\"legal_query\"]": 92,
+          "[\"stats_summary\"]": 89,
+          "[\"chitchat\"]": 69,
+          "[\"document_retrieval\",\"stats_summary\"]": 24,
+          "[\"document_retrieval\"]": 69,
+          "[\"comparative_analysis\",\"external_analysis\"]": 43,
+          "[\"legal_query\",\"stats_summary\"]": 23,
+          "[\"comparative_analysis\",\"legal_query\"]": 24
+        }
+      },
+      "role_patterns": {
+        "system,user,assistant": 5460
+      },
+      "system_prompts": 4,
+      "output_keys": {
+        "U1": {
+          "asks_for_definition,asserts_premise,concepts,intent,question,scope,user_facts": 780
+        },
+        "U2": {
+          "asks_for_definition,asserts_premise,concepts,intent,question,scope,user_facts": 780
+        },
+        "V2": {
+          "verdict": 780
+        },
+        "V1": {
+          "topic": 780
+        },
+        "V3": {
+          "intents": 780
+        },
+        "C1": {
+          "asks_for_definition,asserts_premise,concepts,intent,question,scope,user_facts": 780
+        },
+        "U3": {
+          "asks_for_definition,asserts_premise,concepts,intent,question,scope,user_facts": 780
+        }
+      },
+      "duplicate_messages": 0,
+      "duplicate_prompts": 0
+    },
+    "dev": {
+      "rows": 700,
+      "duplicate_ids": 0,
+      "groups": {
+        "V2": 100,
+        "U1": 100,
+        "U2": 100,
+        "U3": 100,
+        "V3": 100,
+        "V1": 100,
+        "C1": 100
+      },
+      "difficulty": {
+        "medium": 334,
+        "hard": 189,
+        "easy": 177
+      },
+      "slices": {
+        "pool_b": 44,
+        "clean": 70,
+        "canonical": 41,
+        "user_facts": 15,
+        "pool_a": 56,
+        "multi_scope": 18,
+        "comparative_analysis": 9,
+        "single_topic": 79,
+        "anaphora": 23,
+        "empty_state": 35,
+        "single_turn": 24,
+        "document_retrieval": 9,
+        "general": 16,
+        "paraphrase": 16,
+        "cross_topic": 21,
+        "multi_label": 20,
+        "stats_summary": 10,
+        "external_analysis": 12,
+        "document_relationship": 7,
+        "continuation": 9,
+        "synonym": 13,
+        "topic_switch": 19,
+        "boundary:provision_locate_vs_content": 5,
+        "document_copy": 9,
+        "boundary:locate_vs_document_relation": 5,
+        "asserts_premise": 9,
+        "single_scope": 23,
+        "null_discipline": 14,
+        "concept_vs_context": 7,
+        "boundary:document_relation_vs_validity": 5,
+        "multiple_concepts": 8,
+        "boundary:out_of_scope_notlaw_vs_othercorpus": 3,
+        "no_concept": 1,
+        "legal_query": 13,
+        "chitchat": 4,
+        "boundary:definition_vs_rule_detail": 6,
+        "boundary:rule_detail_vs_applicability": 4,
+        "document_vs_concept": 9,
+        "subject_vs_concept": 5,
+        "title_only": 2,
+        "boundary:ambiguous_vs_terse_answerable": 2
+      },
+      "labels": {
+        "verdict": {
+          "Sai": 50,
+          "Đúng": 50
+        },
+        "intent": {
+          "rule_detail": 192,
+          "definition": 31,
+          "provision_content": 52,
+          "applicability": 24,
+          "provision_locate": 29,
+          "ambiguous": 5,
+          "document_relation": 13,
+          "out_of_scope": 39,
+          "validity": 15
+        },
+        "intents": {
+          "[\"comparative_analysis\"]": 9,
+          "[\"document_retrieval\"]": 9,
+          "[\"general\"]": 16,
+          "[\"comparative_analysis\",\"external_analysis\"]": 7,
+          "[\"stats_summary\"]": 10,
+          "[\"external_analysis\"]": 12,
+          "[\"document_relationship\"]": 8,
+          "[\"document_retrieval\",\"stats_summary\"]": 4,
+          "[\"comparative_analysis\",\"legal_query\"]": 3,
+          "[\"legal_query\"]": 13,
+          "[\"chitchat\"]": 4,
+          "[\"document_relationship\",\"stats_summary\"]": 1,
+          "[\"legal_query\",\"stats_summary\"]": 3,
+          "[\"document_relationship\",\"legal_query\"]": 1
+        },
+        "topic": {
+          "Tiền tệ ngân hàng": 4,
+          "Xây dựng - đô thị": 1,
+          "Doanh nghiệp": 7,
+          "Bất động sản": 9,
+          "Thương mại": 5,
+          "Vi phạm hành chính": 7,
+          "Công nghệ thông tin": 3,
+          "Bộ máy hành chính": 5,
+          "Đầu tư": 5,
+          "Giao thông vận tải": 11,
+          "Bảo hiểm": 4,
+          "Kế toán - kiểm toán": 5,
+          "Lĩnh vực khác": 3,
+          "Thể thao - y tế": 2,
+          "Dịch vụ pháp lý": 1,
+          "Trách nhiệm hình sự": 1,
+          "Lao động - tiền lương": 7,
+          "Tài nguyên - môi trường": 2,
+          "Giáo dục": 6,
+          "Thuế - phí - lệ phí": 1,
+          "Tài chính nhà nước": 3,
+          "Thủ tục tố tụng": 2,
+          "Quyền dân sự": 3,
+          "Xuất nhập khẩu": 2,
+          "Sở hữu trí tuệ": 1
+        }
+      },
+      "role_patterns": {
+        "system,user,assistant": 700
+      },
+      "system_prompts": 4,
+      "output_keys": {
+        "V2": {
+          "verdict": 100
+        },
+        "U1": {
+          "asks_for_definition,asserts_premise,concepts,intent,question,scope,user_facts": 100
+        },
+        "U2": {
+          "asks_for_definition,asserts_premise,concepts,intent,question,scope,user_facts": 100
+        },
+        "U3": {
+          "asks_for_definition,asserts_premise,concepts,intent,question,scope,user_facts": 100
+        },
+        "V3": {
+          "intents": 100
+        },
+        "V1": {
+          "topic": 100
+        },
+        "C1": {
+          "asks_for_definition,asserts_premise,concepts,intent,question,scope,user_facts": 100
+        }
+      },
+      "duplicate_messages": 0,
+      "duplicate_prompts": 0
+    },
+    "train": {
+      "rows": 3500,
+      "duplicate_ids": 0,
+      "groups": {
+        "C1": 500,
+        "U1": 500,
+        "V1": 500,
+        "U3": 500,
+        "U2": 500,
+        "V2": 500,
+        "V3": 500
+      },
+      "difficulty": {
+        "hard": 897,
+        "easy": 874,
+        "medium": 1729
+      },
+      "slices": {
+        "null_discipline": 55,
+        "clean": 338,
+        "cross_topic": 92,
+        "empty_state": 146,
+        "single_topic": 408,
+        "multi_scope": 80,
+        "canonical": 199,
+        "single_scope": 121,
+        "document_copy": 41,
+        "pool_b": 196,
+        "boundary:locate_vs_document_relation": 18,
+        "anaphora": 140,
+        "synonym": 56,
+        "external_analysis": 36,
+        "pool_a": 304,
+        "multiple_concepts": 41,
+        "user_facts": 104,
+        "subject_vs_concept": 29,
+        "paraphrase": 92,
+        "single_turn": 129,
+        "multi_label": 104,
+        "asserts_premise": 49,
+        "stats_summary": 59,
+        "title_only": 46,
+        "document_retrieval": 42,
+        "comparative_analysis": 55,
+        "concept_vs_context": 41,
+        "boundary:out_of_scope_notlaw_vs_othercorpus": 20,
+        "no_concept": 22,
+        "general": 59,
+        "boundary:provision_locate_vs_content": 33,
+        "boundary:ambiguous_vs_terse_answerable": 23,
+        "document_relationship": 47,
+        "chitchat": 42,
+        "legal_query": 56,
+        "document_vs_concept": 20,
+        "boundary:rule_detail_vs_applicability": 31,
+        "topic_switch": 37,
+        "continuation": 52,
+        "boundary:document_relation_vs_validity": 21,
+        "boundary:definition_vs_rule_detail": 16
+      },
+      "labels": {
+        "intent": {
+          "out_of_scope": 164,
+          "provision_locate": 145,
+          "rule_detail": 967,
+          "provision_content": 258,
+          "applicability": 139,
+          "definition": 180,
+          "document_relation": 63,
+          "validity": 55,
+          "ambiguous": 29
+        },
+        "topic": {
+          "Bất động sản": 43,
+          "Thương mại": 26,
+          "Giáo dục": 16,
+          "Quyền dân sự": 22,
+          "Lao động - tiền lương": 32,
+          "Tiền tệ ngân hàng": 6,
+          "Lĩnh vực khác": 22,
+          "Trách nhiệm hình sự": 24,
+          "Xuất nhập khẩu": 11,
+          "Đầu tư": 19,
+          "Văn hóa - xã hội": 11,
+          "Bảo hiểm": 24,
+          "Dịch vụ pháp lý": 11,
+          "Tài nguyên - môi trường": 10,
+          "Chứng khoán": 12,
+          "Vi phạm hành chính": 24,
+          "Doanh nghiệp": 30,
+          "Thuế - phí - lệ phí": 34,
+          "Giao thông vận tải": 26,
+          "Công nghệ thông tin": 18,
+          "Xây dựng - đô thị": 11,
+          "Thủ tục tố tụng": 10,
+          "Thể thao - y tế": 13,
+          "Sở hữu trí tuệ": 11,
+          "Kế toán - kiểm toán": 7,
+          "Bộ máy hành chính": 18,
+          "Tài chính nhà nước": 9
+        },
+        "verdict": {
+          "Sai": 250,
+          "Đúng": 250
+        },
+        "intents": {
+          "[\"external_analysis\"]": 38,
+          "[\"legal_query\",\"stats_summary\"]": 16,
+          "[\"comparative_analysis\",\"external_analysis\"]": 27,
+          "[\"stats_summary\"]": 59,
+          "[\"document_retrieval\"]": 42,
+          "[\"comparative_analysis\"]": 55,
+          "[\"document_relationship\",\"stats_summary\"]": 12,
+          "[\"general\"]": 59,
+          "[\"comparative_analysis\",\"legal_query\"]": 15,
+          "[\"document_relationship\"]": 48,
+          "[\"chitchat\"]": 42,
+          "[\"legal_query\"]": 56,
+          "[\"document_retrieval\",\"stats_summary\"]": 17,
+          "[\"document_relationship\",\"legal_query\"]": 14
+        }
+      },
+      "role_patterns": {
+        "system,user,assistant": 3500
+      },
+      "system_prompts": 4,
+      "output_keys": {
+        "C1": {
+          "asks_for_definition,asserts_premise,concepts,intent,question,scope,user_facts": 500
+        },
+        "U1": {
+          "asks_for_definition,asserts_premise,concepts,intent,question,scope,user_facts": 500
+        },
+        "V1": {
+          "topic": 500
+        },
+        "U3": {
+          "asks_for_definition,asserts_premise,concepts,intent,question,scope,user_facts": 500
+        },
+        "U2": {
+          "asks_for_definition,asserts_premise,concepts,intent,question,scope,user_facts": 500
+        },
+        "V2": {
+          "verdict": 500
+        },
+        "V3": {
+          "intents": 500
+        }
+      },
+      "duplicate_messages": 0,
+      "duplicate_prompts": 0
+    }
+  },
+  "overlap": {
+    "train__dev": {
+      "id": {
+        "shared_keys": 0,
+        "left_rows": 0,
+        "right_rows": 0,
+        "examples": []
+      },
+      "messages": {
+        "shared_keys": 0,
+        "left_rows": 0,
+        "right_rows": 0,
+        "examples": []
+      },
+      "prompt": {
+        "shared_keys": 0,
+        "left_rows": 0,
+        "right_rows": 0,
+        "examples": []
+      },
+      "normalized_prompt": {
+        "shared_keys": 0,
+        "left_rows": 0,
+        "right_rows": 0,
+        "examples": []
+      },
+      "source_ref": {
+        "shared_keys": 123,
+        "left_rows": 992,
+        "right_rows": 328,
+        "examples": [
+          {
+            "key": "01/2025/NQ-HĐND",
+            "train": [
+              "U3-100",
+              "U3-457"
+            ],
+            "dev": [
+              "U1-378",
+              "U1-311",
+              "U1-636",
+              "U1-071",
+              "U1-684",
+              "U1-382",
+              "U1-780"
+            ]
+          },
+          {
+            "key": "02/2024/TT-BKHĐT Điều 22 Khoản 1",
+            "train": [
+              "V2-715",
+              "V2-716"
+            ],
+            "dev": [
+              "U3-402"
+            ]
+          },
+          {
+            "key": "06/2024/TT-BKHĐT",
+            "train": [
+              "U1-716",
+              "U1-571",
+              "U1-481",
+              "U1-411",
+              "U1-177",
+              "U1-179",
+              "U1-450"
+            ],
+            "dev": [
+              "U3-346"
+            ]
+          },
+          {
+            "key": "115/2024/NĐ-CP Điều 3 Khoản 2",
+            "train": [
+              "U3-462"
+            ],
+            "dev": [
+              "V2-234",
+              "V2-233"
+            ]
+          },
+          {
+            "key": "115/2024/NĐ-CP Điều 48 Khoản 9",
+            "train": [
+              "U3-565"
+            ],
+            "dev": [
+              "V2-134",
+              "V2-133"
+            ]
+          },
+          {
+            "key": "115/2024/NĐ-CP Điều 52",
+            "train": [
+              "V3-041"
+            ],
+            "dev": [
+              "U3-755"
+            ]
+          },
+          {
+            "key": "141/2025/TT-BQP Điều 9 Khoản 2",
+            "train": [
+              "V2-095",
+              "V2-096"
+            ],
+            "dev": [
+              "U3-761"
+            ]
+          },
+          {
+            "key": "214/2025/NĐ-CP",
+            "train": [
+              "U3-398",
+              "U3-556"
+            ],
+            "dev": [
+              "U1-310",
+              "U1-651",
+              "U1-383",
+              "U1-346",
+              "U1-281",
+              "U1-518",
+              "U1-417",
+              "U1-144",
+              "U1-245",
+              "U1-141",
+              "U1-142",
+              "U1-550"
+            ]
+          },
+          {
+            "key": "214/2025/NĐ-CP Điều 109 Khoản 6",
+            "train": [
+              "V2-078",
+              "V2-077"
+            ],
+            "dev": [
+              "V2-653",
+              "V2-654"
+            ]
+          },
+          {
+            "key": "214/2025/NĐ-CP Điều 122",
+            "train": [
+              "V3-290"
+            ],
+            "dev": [
+              "U3-069"
+            ]
+          }
+        ]
+      },
+      "pair_id": {
+        "shared_keys": 0,
+        "left_rows": 0,
+        "right_rows": 0,
+        "examples": []
+      }
+    },
+    "train__internal_test": {
+      "id": {
+        "shared_keys": 0,
+        "left_rows": 0,
+        "right_rows": 0,
+        "examples": []
+      },
+      "messages": {
+        "shared_keys": 0,
+        "left_rows": 0,
+        "right_rows": 0,
+        "examples": []
+      },
+      "prompt": {
+        "shared_keys": 0,
+        "left_rows": 0,
+        "right_rows": 0,
+        "examples": []
+      },
+      "normalized_prompt": {
+        "shared_keys": 0,
+        "left_rows": 0,
+        "right_rows": 0,
+        "examples": []
+      },
+      "source_ref": {
+        "shared_keys": 170,
+        "left_rows": 1141,
+        "right_rows": 539,
+        "examples": [
+          {
+            "key": "02/2024/TT-BKHĐT Điều 1",
+            "train": [
+              "V3-075"
+            ],
+            "internal_test": [
+              "C1-373"
+            ]
+          },
+          {
+            "key": "02/2024/TT-BKHĐT Điều 10 Khoản 1",
+            "train": [
+              "V2-737",
+              "V2-738"
+            ],
+            "internal_test": [
+              "V2-743",
+              "V2-744"
+            ]
+          },
+          {
+            "key": "07/2024/TT-BYT Điều 20 Khoản 2",
+            "train": [
+              "V2-187",
+              "V2-188"
+            ],
+            "internal_test": [
+              "V2-053",
+              "V2-054"
+            ]
+          },
+          {
+            "key": "07/2024/TT-BYT Điều 40",
+            "train": [
+              "U1-040"
+            ],
+            "internal_test": [
+              "V3-111"
+            ]
+          },
+          {
+            "key": "115/2024/NĐ-CP",
+            "train": [
+              "U3-077",
+              "U3-351"
+            ],
+            "internal_test": [
+              "U1-206",
+              "U1-381",
+              "U1-415",
+              "U1-055",
+              "U1-667",
+              "U1-416"
+            ]
+          },
+          {
+            "key": "115/2024/NĐ-CP Điều 17 Khoản 3",
+            "train": [
+              "V2-778",
+              "V2-777"
+            ],
+            "internal_test": [
+              "U3-296"
+            ]
+          },
+          {
+            "key": "115/2024/NĐ-CP Điều 44",
+            "train": [
+              "V3-560"
+            ],
+            "internal_test": [
+              "C1-045"
+            ]
+          },
+          {
+            "key": "115/2024/NĐ-CP Điều 59 Khoản 8",
+            "train": [
+              "U3-080"
+            ],
+            "internal_test": [
+              "V2-213",
+              "V2-214"
+            ]
+          },
+          {
+            "key": "115/2024/NĐ-CP Điều 63 Khoản 7",
+            "train": [
+              "U3-152"
+            ],
+            "internal_test": [
+              "V2-208",
+              "V2-207"
+            ]
+          },
+          {
+            "key": "115/2024/NĐ-CP Điều 73 Khoản 6",
+            "train": [
+              "U3-498"
+            ],
+            "internal_test": [
+              "V2-174",
+              "V2-173"
+            ]
+          }
+        ]
+      },
+      "pair_id": {
+        "shared_keys": 0,
+        "left_rows": 0,
+        "right_rows": 0,
+        "examples": []
+      }
+    },
+    "dev__internal_test": {
+      "id": {
+        "shared_keys": 0,
+        "left_rows": 0,
+        "right_rows": 0,
+        "examples": []
+      },
+      "messages": {
+        "shared_keys": 0,
+        "left_rows": 0,
+        "right_rows": 0,
+        "examples": []
+      },
+      "prompt": {
+        "shared_keys": 0,
+        "left_rows": 0,
+        "right_rows": 0,
+        "examples": []
+      },
+      "normalized_prompt": {
+        "shared_keys": 0,
+        "left_rows": 0,
+        "right_rows": 0,
+        "examples": []
+      },
+      "source_ref": {
+        "shared_keys": 77,
+        "left_rows": 242,
+        "right_rows": 366,
+        "examples": [
+          {
+            "key": "06/2024/TT-BKHĐT Điều 21 Khoản 3",
+            "dev": [
+              "V2-235",
+              "V2-236"
+            ],
+            "internal_test": [
+              "U3-600"
+            ]
+          },
+          {
+            "key": "115/2024/NĐ-CP Điều 14",
+            "dev": [
+              "U1-358"
+            ],
+            "internal_test": [
+              "V3-669"
+            ]
+          },
+          {
+            "key": "17/2025/NĐ-CP Điều 2 Khoản 5",
+            "dev": [
+              "V2-064",
+              "V2-063"
+            ],
+            "internal_test": [
+              "V2-169",
+              "V2-170"
+            ]
+          },
+          {
+            "key": "214/2025/NĐ-CP Điều 101 Khoản 8",
+            "dev": [
+              "V2-644",
+              "V2-643"
+            ],
+            "internal_test": [
+              "U3-206"
+            ]
+          },
+          {
+            "key": "214/2025/NĐ-CP Điều 51",
+            "dev": [
+              "V3-056"
+            ],
+            "internal_test": [
+              "C1-474"
+            ]
+          },
+          {
+            "key": "24/2024/NĐ-CP Điều 27 Khoản 5",
+            "dev": [
+              "V2-083",
+              "V2-084"
+            ],
+            "internal_test": [
+              "U3-412"
+            ]
+          },
+          {
+            "key": "79/2025/TT-BTC Điều 12 Khoản 3",
+            "dev": [
+              "V2-731",
+              "V2-732"
+            ],
+            "internal_test": [
+              "U3-763"
+            ]
+          },
+          {
+            "key": "AS_OF",
+            "dev": [
+              "U3-698",
+              "U3-448",
+              "U3-022",
+              "U3-454",
+              "U3-075",
+              "U3-256"
+            ],
+            "internal_test": [
+              "U3-751",
+              "U3-706",
+              "U3-503",
+              "U3-397",
+              "U3-653",
+              "U3-754",
+              "U3-103",
+              "U3-406",
+              "U3-204",
+              "U3-603",
+              "U3-552"
+            ]
+          },
+          {
+            "key": "Bảo hiểm",
+            "dev": [
+              "V1-115",
+              "V1-265",
+              "V1-465",
+              "V1-665"
+            ],
+            "internal_test": [
+              "V1-181",
+              "V1-365",
+              "V1-715"
+            ]
+          },
+          {
+            "key": "Bảo đảm thực hiện hợp đồng",
+            "dev": [
+              "U1-609"
+            ],
+            "internal_test": [
+              "U3-235"
+            ]
+          }
+        ]
+      },
+      "pair_id": {
+        "shared_keys": 0,
+        "left_rows": 0,
+        "right_rows": 0,
+        "examples": []
+      }
+    }
+  },
+  "issues": [],
+  "split_union_matches_full": true,
+  "review_mismatch": [],
+  "review_extra_metadata": [
+    {
+      "id": "V1-396",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-180",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-676",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-484",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-404",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-048",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-692",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-164",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-632",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-012",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-444",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-120",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-536",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-296",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-256",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-228",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-324",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-272",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-336",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-268",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-084",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-080",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-764",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-612",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-596",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-060",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-456",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-516",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-768",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-408",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-280",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-264",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-392",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-200",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-284",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-008",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-096",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-224",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-756",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-360",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-252",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-656",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-044",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-624",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-652",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-384",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-248",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-076",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-448",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-312",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-152",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-024",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-156",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-704",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-372",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-724",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-688",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-740",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-432",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-132",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-240",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-700",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-308",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-184",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-552",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-328",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-464",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-508",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-736",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-340",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-040",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-236",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-532",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-772",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-104",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-668",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-412",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-416",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-088",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-560",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-752",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-192",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-620",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-584",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-644",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-056",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-580",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-440",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-344",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-092",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-204",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-604",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-544",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-376",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-696",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-208",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-004",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-576",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-504",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-460",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-332",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-116",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-592",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-496",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-124",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-420",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-608",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-716",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-468",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-600",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-196",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-660",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-672",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-588",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-512",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-316",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-276",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-424",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-380",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-748",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-480",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-712",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-528",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-520",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-556",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-288",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-452",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-140",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-244",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-136",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-020",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-492",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-400",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-032",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-616",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-028",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-648",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-636",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-100",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-176",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-352",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-304",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-148",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-776",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-436",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-472",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-568",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-640",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-168",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-052",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-016",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-260",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-664",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-488",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-428",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-628",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-720",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-708",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-564",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-212",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-548",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-540",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-364",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-292",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-232",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-476",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-368",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-348",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-172",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-356",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-728",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-760",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-064",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-068",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-216",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-680",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-036",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-160",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-572",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-188",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-144",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-684",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-780",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-732",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-320",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-072",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-220",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-112",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-744",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-524",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-388",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-300",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-500",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-128",
+      "extra_keys": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "V1-108",
+      "extra_keys": [
+        "mcq"
+      ]
+    }
+  ],
+  "conflicting_prompts": [],
+  "provenance": {
+    "source_type": {
+      "authored": 1371,
+      "corpus": 3113,
+      "product_pattern": 976
+    },
+    "generator_version": {
+      "v4-repair": 4936,
+      "None": 524
+    },
+    "review_status": {
+      "unreviewed": 5444,
+      "needs_review:semantic_grounding": 16
+    },
+    "repaired": {
+      "True": 374,
+      "None": 5086
+    }
+  },
+  "flagged_review": [
+    {
+      "id": "U2-035",
+      "group": "U2",
+      "split": "train",
+      "user": "Earlier turns:\n(none)\n\nCurrent turn:\nTrong Nhà thầu phụ đặc biệt, quy trình đàm phán và hoàn thiện hợp đồng thường diễn ra như thế nào?",
+      "gold": "{\"question\":\"Trong Nhà thầu phụ đặc biệt, quy trình đàm phán và hoàn thiện hợp đồng thường diễn ra như thế nào?\",\"intent\":\"rule_detail\",\"concepts\":[\"đàm phán, hoàn thiện hợp đồng\"],\"asks_for_definition\":false,\"scope\":[],\"user_facts\":[],\"asserts_premise\":false}"
+    },
+    {
+      "id": "U2-018",
+      "group": "U2",
+      "split": "train",
+      "user": "Earlier turns:\n(none)\n\nCurrent turn:\nNhà thầu chính là gì và có gì khác biệt so với hiểu biết thông thường về nhà thầu?",
+      "gold": "{\"question\":\"Nhà thầu chính là gì và có gì khác biệt so với hiểu biết thông thường về nhà thầu?\",\"intent\":\"definition\",\"concepts\":[\"nhà thầu chính\"],\"asks_for_definition\":true,\"scope\":[],\"user_facts\":[],\"asserts_premise\":false}"
+    },
+    {
+      "id": "U2-001",
+      "group": "U2",
+      "split": "train",
+      "user": "Earlier turns:\n(none)\n\nCurrent turn:\nĐiều kiện đối với cá nhân tham gia hoạt động đấu thầu là gì?",
+      "gold": "{\"question\":\"Điều kiện đối với cá nhân tham gia hoạt động đấu thầu là gì?\",\"intent\":\"rule_detail\",\"concepts\":[\"điều kiện đối với cá nhân tham gia hoạt động đấu thầu\"],\"asks_for_definition\":false,\"scope\":[],\"user_facts\":[],\"asserts_premise\":false}"
+    },
+    {
+      "id": "U2-036",
+      "group": "U2",
+      "split": "train",
+      "user": "Earlier turns:\n(none)\n\nCurrent turn:\nTrong Chứng thư số sử dụng trên Hệ thống, nếu phát hiện có sự gian lận trong hồ sơ dự thầu thì cần xử lý như thế nào?",
+      "gold": "{\"question\":\"Trong Chứng thư số sử dụng trên Hệ thống, nếu phát hiện có sự gian lận trong hồ sơ dự thầu thì cần xử lý như thế nào?\",\"intent\":\"rule_detail\",\"concepts\":[\"xử lý tình huống trong hoạt động đấu thầu\"],\"asks_for_definition\":false,\"scope\":[],\"user_facts\":[],\"asserts_premise\":false}"
+    },
+    {
+      "id": "U2-019",
+      "group": "U2",
+      "split": "internal_test",
+      "user": "Earlier turns:\n(none)\n\nCurrent turn:\nQuy trình lựa chọn nhà thầu có những bước nào cần thực hiện?",
+      "gold": "{\"question\":\"Quy trình lựa chọn nhà thầu có những bước nào cần thực hiện?\",\"intent\":\"rule_detail\",\"concepts\":[\"quy trình lựa chọn nhà thầu\"],\"asks_for_definition\":false,\"scope\":[],\"user_facts\":[],\"asserts_premise\":false}"
+    },
+    {
+      "id": "U2-060",
+      "group": "U2",
+      "split": "train",
+      "user": "Earlier turns:\n(none)\n\nCurrent turn:\nCơ quan nhà nước có thẩm quyền được định nghĩa như thế nào?",
+      "gold": "{\"question\":\"Cơ quan nhà nước có thẩm quyền được định nghĩa như thế nào?\",\"intent\":\"definition\",\"concepts\":[\"cơ quan nhà nước có thẩm quyền\"],\"asks_for_definition\":true,\"scope\":[],\"user_facts\":[],\"asserts_premise\":false}"
+    },
+    {
+      "id": "U2-015",
+      "group": "U2",
+      "split": "dev",
+      "user": "Earlier turns:\n(none)\n\nCurrent turn:\nKiến nghị là gì và có ý nghĩa như thế nào trong quá trình lựa chọn nhà thầu?",
+      "gold": "{\"question\":\"Kiến nghị là gì và có ý nghĩa như thế nào trong quá trình lựa chọn nhà thầu?\",\"intent\":\"definition\",\"concepts\":[\"kiến nghị\"],\"asks_for_definition\":true,\"scope\":[],\"user_facts\":[],\"asserts_premise\":false}"
+    },
+    {
+      "id": "U2-064",
+      "group": "U2",
+      "split": "train",
+      "user": "Earlier turns:\n(none)\n\nCurrent turn:\nKhi nào thì cần áp dụng hình thức lựa chọn nhà thầu trong dự án xây dựng?",
+      "gold": "{\"question\":\"Khi nào thì cần áp dụng hình thức lựa chọn nhà thầu trong dự án xây dựng?\",\"intent\":\"rule_detail\",\"concepts\":[\"áp dụng hình thức lựa chọn nhà thầu\"],\"asks_for_definition\":false,\"scope\":[],\"user_facts\":[],\"asserts_premise\":false}"
+    },
+    {
+      "id": "U2-052",
+      "group": "U2",
+      "split": "dev",
+      "user": "Earlier turns:\n(none)\n\nCurrent turn:\nQuy trình Lập, thẩm định, phê duyệt kế hoạch lựa chọn nhà thầu diễn ra như thế nào?",
+      "gold": "{\"question\":\"Quy trình Lập, thẩm định, phê duyệt kế hoạch lựa chọn nhà thầu diễn ra như thế nào?\",\"intent\":\"rule_detail\",\"concepts\":[\"lập, thẩm định, phê duyệt kế hoạch lựa chọn nhà thầu\"],\"asks_for_definition\":false,\"scope\":[],\"user_facts\":[],\"asserts_premise\":false}"
+    },
+    {
+      "id": "U2-048",
+      "group": "U2",
+      "split": "train",
+      "user": "Earlier turns:\n(none)\n\nCurrent turn:\nThương thảo hợp đồng và trách nhiệm của tổ chức thẩm định được quy định ở đâu?",
+      "gold": "{\"question\":\"Thương thảo hợp đồng và trách nhiệm của tổ chức thẩm định được quy định ở đâu?\",\"intent\":\"provision_locate\",\"concepts\":[\"thương thảo hợp đồng\",\"trách nhiệm của tổ chức thẩm định\"],\"asks_for_definition\":false,\"scope\":[],\"user_facts\":[],\"asserts_premise\":false}"
+    },
+    {
+      "id": "U2-058",
+      "group": "U2",
+      "split": "train",
+      "user": "Earlier turns:\n(none)\n\nCurrent turn:\nĐiều kiện phát hành hồ sơ mời thầu là gì?",
+      "gold": "{\"question\":\"Điều kiện phát hành hồ sơ mời thầu là gì?\",\"intent\":\"rule_detail\",\"concepts\":[\"điều kiện phát hành hồ sơ mời thầu\"],\"asks_for_definition\":false,\"scope\":[],\"user_facts\":[],\"asserts_premise\":false}"
+    },
+    {
+      "id": "U2-002",
+      "group": "U2",
+      "split": "dev",
+      "user": "Earlier turns:\n(none)\n\nCurrent turn:\nQuy trình chỉ định thầu thông thường có những bước nào cần thực hiện?",
+      "gold": "{\"question\":\"Quy trình chỉ định thầu thông thường có những bước nào cần thực hiện?\",\"intent\":\"rule_detail\",\"concepts\":[\"quy trình chỉ định thầu thông thường\"],\"asks_for_definition\":false,\"scope\":[],\"user_facts\":[],\"asserts_premise\":false}"
+    },
+    {
+      "id": "U2-007",
+      "group": "U2",
+      "split": "train",
+      "user": "Earlier turns:\n(none)\n\nCurrent turn:\nHợp đồng với nhà đầu tư được lựa chọn cần có những điều khoản gì để đảm bảo tính pháp lý?",
+      "gold": "{\"question\":\"Hợp đồng với nhà đầu tư được lựa chọn cần có những điều khoản gì để đảm bảo tính pháp lý?\",\"intent\":\"rule_detail\",\"concepts\":[\"hợp đồng với nhà đầu tư được lựa chọn\"],\"asks_for_definition\":false,\"scope\":[],\"user_facts\":[],\"asserts_premise\":false}"
+    },
+    {
+      "id": "U2-012",
+      "group": "U2",
+      "split": "train",
+      "user": "Earlier turns:\n(none)\n\nCurrent turn:\nGói thầu quy mô nhỏ là gì?",
+      "gold": "{\"question\":\"Gói thầu quy mô nhỏ là gì?\",\"intent\":\"definition\",\"concepts\":[\"gói thầu quy mô nhỏ\"],\"asks_for_definition\":true,\"scope\":[],\"user_facts\":[],\"asserts_premise\":false}"
+    },
+    {
+      "id": "U2-005",
+      "group": "U2",
+      "split": "internal_test",
+      "user": "Earlier turns:\n(none)\n\nCurrent turn:\nNguyên tắc giải quyết các tranh chấp trong hợp đồng được quy định như thế nào?",
+      "gold": "{\"question\":\"Nguyên tắc giải quyết các tranh chấp trong hợp đồng được quy định như thế nào?\",\"intent\":\"rule_detail\",\"concepts\":[\"nguyên tắc giải quyết\"],\"asks_for_definition\":false,\"scope\":[],\"user_facts\":[],\"asserts_premise\":false}"
+    },
+    {
+      "id": "U2-065",
+      "group": "U2",
+      "split": "train",
+      "user": "Earlier turns:\n(none)\n\nCurrent turn:\nCác cơ quan nào có trách nhiệm tổ chức Đào tạo, bồi dưỡng về đấu thầu cho cán bộ công chức?",
+      "gold": "{\"question\":\"Các cơ quan nào có trách nhiệm tổ chức Đào tạo, bồi dưỡng về đấu thầu cho cán bộ công chức?\",\"intent\":\"rule_detail\",\"concepts\":[\"đào tạo, bồi dưỡng về đấu thầu\"],\"asks_for_definition\":false,\"scope\":[],\"user_facts\":[],\"asserts_premise\":false}"
+    }
+  ]
+}

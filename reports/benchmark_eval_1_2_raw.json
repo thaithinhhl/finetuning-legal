@@ -1,0 +1,57 @@
+{
+  "total": 683,
+  "exact_match_accuracy": 0.8023426061493412,
+  "unparsed": 30,
+  "sample_examples": [
+    {
+      "raw": "E",
+      "pred": "E",
+      "gold": "E"
+    },
+    {
+      "raw": "F",
+      "pred": "F",
+      "gold": "F"
+    },
+    {
+      "raw": "E",
+      "pred": "E",
+      "gold": "E"
+    },
+    {
+      "raw": "C",
+      "pred": "C",
+      "gold": "C"
+    },
+    {
+      "raw": "D",
+      "pred": "D",
+      "gold": "D"
+    },
+    {
+      "raw": "A",
+      "pred": "A",
+      "gold": "A"
+    },
+    {
+      "raw": "D",
+      "pred": "D",
+      "gold": "D"
+    },
+    {
+      "raw": "D",
+      "pred": "D",
+      "gold": "B"
+    },
+    {
+      "raw": "D",
+      "pred": "D",
+      "gold": "A"
+    },
+    {
+      "raw": "F. Lĩnh vực khác",
+      "pred": "F",
+      "gold": "D"
+    }
+  ]
+}
