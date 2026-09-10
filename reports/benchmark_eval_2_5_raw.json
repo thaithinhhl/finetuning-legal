@@ -1,0 +1,121 @@
+{
+  "total": 1359,
+  "exact_match_accuracy": 0.13318616629874908,
+  "micro_precision": 0.6998616874135546,
+  "micro_recall": 0.33948339483394835,
+  "micro_f1": 0.45719448836683985,
+  "macro_f1": 0.4245125,
+  "per_category_f1": {
+    "chitchat": 0.4058,
+    "comparative_analysis": 0.5287,
+    "document_relationship": 0.4368,
+    "document_retrieval": 0.3775,
+    "external_analysis": 0.2759,
+    "general": 0.4563,
+    "legal_query": 0.4933,
+    "stats_summary": 0.4218
+  },
+  "sample_examples": [
+    {
+      "raw": "A",
+      "pred": [
+        "A"
+      ],
+      "gold": [
+        "A",
+        "D"
+      ]
+    },
+    {
+      "raw": "C",
+      "pred": [
+        "C"
+      ],
+      "gold": [
+        "B",
+        "D"
+      ]
+    },
+    {
+      "raw": "| Query | Intent |\n|-------|--------|\n| Bạn đang làm gì hôm",
+      "pred": [
+        "A",
+        "B"
+      ],
+      "gold": [
+        "C",
+        "D"
+      ]
+    },
+    {
+      "raw": "B",
+      "pred": [
+        "B"
+      ],
+      "gold": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "raw": "B",
+      "pred": [
+        "B"
+      ],
+      "gold": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "raw": "B",
+      "pred": [
+        "B"
+      ],
+      "gold": [
+        "B",
+        "C"
+      ]
+    },
+    {
+      "raw": "A",
+      "pred": [
+        "A"
+      ],
+      "gold": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "raw": "C",
+      "pred": [
+        "C"
+      ],
+      "gold": [
+        "C",
+        "D"
+      ]
+    },
+    {
+      "raw": "C",
+      "pred": [
+        "C"
+      ],
+      "gold": [
+        "C",
+        "D"
+      ]
+    },
+    {
+      "raw": "C",
+      "pred": [
+        "C"
+      ],
+      "gold": [
+        "B",
+        "C"
+      ]
+    }
+  ]
+}

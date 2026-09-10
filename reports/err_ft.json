@@ -1,0 +1,46 @@
+{
+  "model": {
+    "base_model": "/home/ubuntu/finetuning-legal/.cache/models/Qwen2.5-7B-Instruct",
+    "adapter": "/home/ubuntu/finetuning-legal/outputs/qwen2.5-7b-legal-bf16-lora/best_adapter"
+  },
+  "1_2": {
+    "accuracy": 0.808199121522694,
+    "correct": 552,
+    "unparsed": 30,
+    "total": 683
+  },
+  "2_4": {
+    "accuracy": 0.8180300500834724,
+    "correct": 490,
+    "unparsed": 0,
+    "confusion_gold_to_pred": {
+      "Đúng": {
+        "Đúng": 268,
+        "Sai": 26
+      },
+      "Sai": {
+        "Đúng": 83,
+        "Sai": 222
+      }
+    },
+    "total": 599
+  },
+  "2_5": {
+    "macro_f1": 0.4243375,
+    "micro_f1": 0.45569620253164567,
+    "micro_precision": 0.6985446985446986,
+    "micro_recall": 0.33814156323381417,
+    "exact_match_accuracy": 0.1309786607799853,
+    "per_category_f1": {
+      "chitchat": 0.4158,
+      "comparative_analysis": 0.5287,
+      "document_relationship": 0.4316,
+      "document_retrieval": 0.3756,
+      "external_analysis": 0.2791,
+      "general": 0.4493,
+      "legal_query": 0.4912,
+      "stats_summary": 0.4234
+    },
+    "total": 1359
+  }
+}

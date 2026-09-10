@@ -1,0 +1,52 @@
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:01,  1.50it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.59it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:01<00:00,  1.56it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.62it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.60it/s]
+/home/ubuntu/finetuning-legal/.venv/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:631: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.7` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/ubuntu/finetuning-legal/.venv/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:636: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/home/ubuntu/finetuning-legal/.venv/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:653: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+  progress 32/1359
+  progress 64/1359
+  progress 96/1359
+  progress 128/1359
+  progress 160/1359
+  progress 192/1359
+  progress 224/1359
+  progress 256/1359
+  progress 288/1359
+  progress 320/1359
+  progress 352/1359
+  progress 384/1359
+  progress 416/1359
+  progress 448/1359
+  progress 480/1359
+  progress 512/1359
+  progress 544/1359
+  progress 576/1359
+  progress 608/1359
+  progress 640/1359
+  progress 672/1359
+  progress 704/1359
+  progress 736/1359
+  progress 768/1359
+  progress 800/1359
+  progress 832/1359
+  progress 864/1359
+  progress 896/1359
+  progress 928/1359
+  progress 960/1359
+  progress 992/1359
+  progress 1024/1359
+  progress 1056/1359
+  progress 1088/1359
+  progress 1120/1359
+  progress 1152/1359
+  progress 1184/1359
+  progress 1216/1359
+  progress 1248/1359
+  progress 1280/1359
+  progress 1312/1359
+  progress 1344/1359
+  progress 1359/1359
+EVAL_2_5_RAW_DONE {"total": 1359, "exact_match_accuracy": 0.13318616629874908, "micro_precision": 0.6998616874135546, "micro_recall": 0.33948339483394835, "micro_f1": 0.45719448836683985, "macro_f1": 0.4245125, "per_category_f1": {"chitchat": 0.4058, "comparative_analysis": 0.5287, "document_relationship": 0.4368, "document_retrieval": 0.3775, "external_analysis": 0.2759, "general": 0.4563, "legal_query": 0.4933, "stats_summary": 0.4218}}
